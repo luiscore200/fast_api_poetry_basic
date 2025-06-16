@@ -1,0 +1,59 @@
+# Entornos virtuales
+env/
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Archivos de configuración específicos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de logs
+*.log
+
+# Configuración de editores de texto
+.vscode/
+.idea/
+*.swp
+
+# Archivos de entorno
+.env
+.env.*
+
+# Bases de datos locales o temporales
+*.sqlite3
+*.db
+
+# Carpeta de resultados temporales, si aplicara
+tmp/
+temp/
+.cache/
+__pypackages__/
+
+# Archivos de pruebas
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+pytest_cache/
+.pytest_cache/
+
+# Archivos de Poetry (si usas lock y no quieres que otros lo editen)
+# Puedes incluir `poetry.lock` si quieres que todos tengan las mismas versiones
+# O ignorarlo si quieres dejarlo libre
+#poetry.lock
+
+# Modelos o vectores locales (opcional)
+*.pkl
+*.pt
+*.bin
+*.npy
+index_store/
