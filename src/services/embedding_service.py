@@ -1,10 +1,9 @@
 # embedding_service.py
 
-from langchain.embeddings import LangchainEmbedding
+from langchain_community.embeddings import SentenceTransformerEmbeddings
 
 async def generate_embeddings(chunk):
-    # Asumiendo que `LangchainEmbedding` es el modelo que deseas usar
-    model = LangchainEmbedding.from_pretrained('intfloat/e5-small-v2')
-    embedding = await model.get_embedding(chunk.content)  # Ajusta esto según cómo se accede al contenido del chunk
+    # Usando SentenceTransformerEmbeddings para el modelo 'intfloat/e5-small-v2'
+    model = SentenceTransformerEmbeddings(model_name='intfloat/e5-small-v2')
+    embedding = await model.embed_query(chunk.page_content) # Usar embed_query para obtener el embedding de un solo texto
     return embedding
-    return embeddings

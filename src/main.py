@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from src.controllers.pdf_controller import router as pdf_router
 from dotenv import load_dotenv
+
 load_dotenv()
 app = FastAPI()
 
