@@ -18,7 +18,14 @@ python-dotenv = "^1.1.0"
 python-multipart = "^0.0.20"
 groq = "^0.28.0"
 aiosqlite = "^0.21.0"
+google-generativeai = "^0.8.5"
+langchain-openai = "^0.3.24"
+langchain-groq = "^0.3.2"
+pandas = "^2.3.0"
 
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.2.0"
 
 [build-system]
 requires = ["poetry-core"]
