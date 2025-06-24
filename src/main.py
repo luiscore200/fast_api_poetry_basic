@@ -2,9 +2,12 @@ from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
 from dotenv import load_dotenv
 from src.common.managers.response_manager import ResponseManager # Importar ResponseManager
+from src.data.data_controller import router as articles_router
 
 load_dotenv()
 app = FastAPI()
+
+app.include_router(articles_router, prefix="/articles") 
 
 # Handler global para excepciones no manejadas
 @app.exception_handler(Exception)

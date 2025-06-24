@@ -4,9 +4,8 @@ from dotenv import load_dotenv
 from typing import List, Union, Any
 from langchain_core.embeddings import Embeddings
 from langchain_openai import OpenAIEmbeddings
-from langchain_community.embeddings import HuggingFaceEmbeddings
-from anyio.to_thread import run_in_threadpool
-
+from langchain_huggingface import HuggingFaceEmbeddings
+from anyio import to_thread 
 from src.common.types.errors_types import EmbeddingServiceError
 
 load_dotenv()
@@ -67,9 +66,9 @@ class EmbeddingService:
         """
         try:
             if isinstance(text, str):
-                return await run_in_threadpool(self.embeddings_model.embed_query, text)
+                return await to_thread.run_sync(self.embeddings_model.embed_query, text)
             elif isinstance(text, list):
-                return await run_in_threadpool(self.embeddings_model.embed_documents, text)
+                return await to_thread.run_sync(self.embeddings_model.embed_documents, text)
             else:
                 raise TypeError("El texto debe ser str o List[str]")
         except Exception as e:
