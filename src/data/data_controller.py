@@ -74,8 +74,7 @@ async def create_article(article: Article):
             embedding_vector = await embedding_service.generate(chunk.content)
             chunk.embedding = embedding_vector
             print(f"🔢 Embedding generado para chunk_id={chunk.chunk_id}")
-            if i == 0:
-                qdrant_repo.create_collection_if_not_exists(embedding_example=embedding_vector)
+        
 
         # 8. Guardar en qdrantDB
         qdrant_repo.insert_chunks(result.chunks)

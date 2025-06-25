@@ -25,7 +25,7 @@ __pycache__/
 
 # Archivos de entorno
 .env
-.env.*
+
 
 # Bases de datos locales o temporales
 *.sqlite3

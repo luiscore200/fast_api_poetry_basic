@@ -1,10 +1,12 @@
-from typing import Optional,List,Dict
+from typing import Optional, List, Dict, Any
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.pydantic_v1 import BaseModel, Field
+from pydantic import BaseModel, Field
 from langchain_core.output_parsers import JsonOutputParser
 from src.common.providers.llm_provider import LLMProvider
 from src.common.providers.sqlite_provider import SQLiteProvider
 from src.common.repositories.qdrant_repository import QdrantRepository
+from src.common.services.embeddings_service import EmbeddingService
+from qdrant_client.http.models import ScoredPoint
 
 
 class BusquedaVectorialOutput(BaseModel):
@@ -13,70 +15,119 @@ class BusquedaVectorialOutput(BaseModel):
     categories: list[str] = Field(default_factory=list, description="Categorías relevantes.")
     sentiment: str = Field(default="neutral", description="Sentimiento detectado.")
 
+
 class SearcherService:
-    def __init__(self, provider: str = "groq", temperature: float = 0.0):
-        # Se delega la selección de modelo por defecto al LLMProvider
-        self.provider = provider
-        self.llm_provider = LLMProvider(provider=self.provider, temperature=temperature)
+    def __init__(self):
+        self.llm_provider = LLMProvider()
         self.parser = JsonOutputParser(pydantic_object=BusquedaVectorialOutput)
         self.prompt = ChatPromptTemplate.from_messages([
-            ("system", 
+            ("system",
              "Eres un experto en procesamiento de lenguaje natural para motores vectoriales. "
              "Transformarás el mensaje del usuario en una consulta optimizada, extraerás tags, "
-             "categorías y sentimiento. Devuelve un JSON acorde al esquema."),
+             "categorías y sentimiento. Las categorías y tags deben ir en español. Devuelve un JSON válido con el esquema dado."),
             ("human", "Prompt: {user_prompt}\n\nFormato esperado:\n{format_instructions}")
         ])
         self.qdrant = QdrantRepository()
         self.sqlite = SQLiteProvider()
-       # self.qdrant.delete_collection()
+        self.embedding_service = EmbeddingService(model_type="local")
 
-
-        
-
-    async def analyze_prompt(self, user_prompt: str) -> BusquedaVectorialOutput:
-        """
-        Llama al LLM para obtener la consulta optimizada y metadatos.
-        """
-        llm = await self.llm_provider.get_instance()
-        chain = self.prompt | llm | self.parser
+    async def analyze_prompt(self, user_prompt: str, provider: str = "groq") -> BusquedaVectorialOutput:
+        print("🧠 Analizando prompt...")
         try:
-            bvo: BusquedaVectorialOutput = await chain.ainvoke({
+            llm = await self.llm_provider.get_instance(provider=provider)
+            chain = self.prompt | llm | self.parser
+            result = await chain.ainvoke({
                 "user_prompt": user_prompt,
                 "format_instructions": self.parser.get_format_instructions()
             })
-            return bvo
+
+            if isinstance(result, dict):
+                result = BusquedaVectorialOutput(**result)
+            print("✅ Prompt procesado:", result)
+            return result
+
         except Exception as e:
-            print(f"Error analyzing prompt: {e}")
-        
-            return BusquedaVectorialOutput(query_vectorial=user_prompt) 
-            
+            print(f"❌ Error analizando prompt: {e}")
+            return BusquedaVectorialOutput(query_vectorial=user_prompt)
 
-    async def recommend_ids(self, user_prompt: str, n_results: int = 10) -> Dict:
-        # Llamada al LLM → BVO
-        llm = await self.llm_provider.get_instance()
-        chain = self.prompt | llm | self.parser
-        bvo = await chain.ainvoke({
-            "user_prompt": user_prompt,
-            "format_instructions": self.parser.get_format_instructions()
-        })
+    async def run_semantic_search(self, bvo: BusquedaVectorialOutput, top_k: int = 3) -> List[ScoredPoint]:
+        try:
+            print("🔄 Generando vector de la consulta...")
+            query_vector = await self.embedding_service.generate(bvo.query_vectorial)
+            print("🧬 Vector generado: ", query_vector[:10], "...")
 
-        # Construcción de filtros planos
-        filters = {f"merged_tag_{i}": t for i, t in enumerate(bvo.tags)}
-        filters.update({f"merged_category_{i}": c for i, c in enumerate(bvo.categories)})
+            print("🔎 Ejecutando búsqueda vectorial...")
+            results: List[ScoredPoint] = self.qdrant.search(
+                query_vector=query_vector,
+                tags=bvo.tags,
+                categories=bvo.categories,
+                top_k=top_k
+            )
 
-        # Búsqueda en qdrant → lista de IDs
-        ids = self.qdrant.search(bvo.query_vectorial, filters, n_results)
+            print("📥 Resultados encontrados:")
+            for i, r in enumerate(results):
+                print(f"  {i+1}. Doc {r.payload.get('document_id')} - Score: {r.score}")
 
-        return {
-            "llm": bvo.dict(),
-            "document_ids": ids
-        }
+            return results
 
-    def fetch_articles(self, document_ids: List[int]) -> List[Dict]:
-        results = []
-        for doc_id in document_ids:
-            row = self.sqlite.find("articles", where={"id": doc_id})
+        except Exception as e:
+            print(f"❌ Error en búsqueda semántica: {e}")
+            return []
+
+    def run_sql_search(self, document_id: int) -> Optional[Dict[str, Any]]:
+        try:
+            print(f"🗂️ Buscando artículo en SQL para ID {document_id}...")
+            row = self.sqlite.find("articles", where={"id": document_id})
             if row:
                 _id, title, content = row[0]
-                results.append({"id": _id, "title": title, "content": content})
-        return results
+                return {"id": _id, "title": title, "content": content}
+            return None
+        except Exception as e:
+            print(f"❌ Error en búsqueda SQL: {e}")
+            return None
+
+    async def run_search(self, user_prompt: str, top_k: int = 3, provider: str = "groq") -> Dict[str, Any]:
+        print("🚀 Iniciando búsqueda completa...")
+        try:
+            bvo = await self.analyze_prompt(user_prompt, provider=provider)
+
+            if not isinstance(bvo, BusquedaVectorialOutput):
+                try:
+                    bvo = BusquedaVectorialOutput(**bvo)
+                except Exception as parse_error:
+                    print(f"❌ Error convirtiendo dict a BusquedaVectorialOutput: {parse_error}")
+                    bvo = BusquedaVectorialOutput(query_vectorial=user_prompt)
+
+            results = await self.run_semantic_search(bvo, top_k=top_k)
+
+            if not results:
+                return {
+                    "llm": bvo.dict(),
+                    "article": None,
+                    "vector_results": []
+                }
+
+            top_doc_id = results[0].payload.get("document_id")
+            article_data = self.run_sql_search(top_doc_id)
+
+            return {
+                "llm": bvo.dict(),
+                "article": article_data,
+                "vector_results": [
+                    {
+                        "document_id": r.payload.get("document_id"),
+                        "score": r.score,
+                        "tags": r.payload.get("merged_tags", []),
+                        "categories": r.payload.get("merged_categories", [])
+                    } for r in results
+                ]
+            }
+
+        except Exception as e:
+            print(f"❌ Error general en run_search: {e}")
+            return {
+                "llm": {},
+                "article": None,
+                "vector_results": [],
+                "error": str(e)
+            }
