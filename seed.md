@@ -50,7 +50,9 @@ Para futuras solicitudes, por favor, utiliza el siguiente formato:
 
 3 artículos que combinen las tres categorías del bloque.
 
-Cada artículo debe tener un título, un contenido de 300 palabras, y el campo categories: [] con las categorías correspondientes. Continúa con los siguientes 3 hasta completar la lista, eliminando del prompt las categorías ya procesadas."
+Cada artículo debe tener un título, un contenido de 300 palabras, y el campo categories: [] con las categorías correspondientes. Continúa con los siguientes 3 hasta completar la lista, eliminando del prompt las categorías ya procesadas.
+y el campo tags: [] con todos los focus importantes que deban resaltarse del parrafo, maximo 3, maximo 2 palabras porcada uno.
+"
 
 
 
