@@ -1,14 +1,10 @@
+import uuid # Importar uuid
 from typing import List,Dict, Union
 
-def flatten_metadata_list(
-    prefix: str,
-    items: List[Union[str, int, float, bool]]
-) -> Dict[str, Union[str, int, float, bool]]:
-    """
-    Convierte una lista en un diccionario con claves numeradas.
 
-    Ejemplo:
-        prefix='merged_tag', items=['a', 'b']
-        => {'merged_tag_0': 'a', 'merged_tag_1': 'b'}
+
+def generate_unique_chunk_id() -> str:
     """
-    return {f"{prefix}_{i}": item for i, item in enumerate(items)}
+    Genera un ID de chunk único usando UUID v4.
+    """
+    return str(uuid.uuid4()) # Generar UUID y convertir a string

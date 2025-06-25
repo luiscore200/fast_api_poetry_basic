@@ -14,7 +14,7 @@ class LLMOutputSchema(BaseModel):
 
 
 class ChunkOutput(BaseModel):
-    chunk_id: int
+    chunk_id: str # Cambiado a string
     document_id: int
     content: str
     original: Metadata # tags y categories originales

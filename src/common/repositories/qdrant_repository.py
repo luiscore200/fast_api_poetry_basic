@@ -64,12 +64,13 @@ class QdrantORM:
         self.create_collection_if_not_exists(vector_dim=len(sample_vector))
 
         point_structs = [
-            PointStruct(id=p["id"], vector=p["vector"], payload=p.get("payload", {}))
+            PointStruct(id=p["id"], vector=p["vector"], payload=p.get("payload", {})) # Eliminar str()
             for p in points
         ]
 
         self.client.upsert(collection_name=self.collection_name, points=point_structs)
         print(f"📌 {len(points)} puntos insertados en '{self.collection_name}'.")
+
 
     def search(
         self,
@@ -104,3 +105,16 @@ class QdrantORM:
                 conditions.append(FieldCondition(key=key, match=MatchAny(any=[value])))
 
         return Filter(should=conditions) if conditions else None
+    
+    def count_points(self, filters: Optional[Dict[str, Union[str, List[str]]]] = None) -> int:
+        qdrant_filter = self._build_filter(filters)
+        try:
+            count_result = self.client.count(
+                collection_name=self.collection_name,
+                count_filter=qdrant_filter,
+                exact=True  # Usa True para contar todos, no aproximado
+            )
+            return count_result.count
+        except Exception as e:
+            print(f"❌ Error al contar puntos en '{self.collection_name}': {e}")
+            return 0

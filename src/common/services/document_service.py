@@ -6,6 +6,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 from src.common.types.metadata_types import ChunkOutput, FullDocumentChunksOutput,Metadata
 from src.common.types.article_types import Article
+from src.common.utils.metadata_transform import generate_unique_chunk_id # Importar la nueva función
 
 class DocumentService:
     def __init__(self):
@@ -57,7 +58,7 @@ class DocumentService:
         """
         outputs = [
         ChunkOutput(
-            chunk_id=i,
+            chunk_id=generate_unique_chunk_id(), # Usar la nueva función
             document_id=document_id,
             content=chunk,
             original={

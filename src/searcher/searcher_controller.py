@@ -1,14 +1,15 @@
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
-from src.searcher.searcher_service import SearcherService
+from src.searcher.searcher_service import DocumentSearcherService
 from src.common.managers.response_manager import ResponseManager
 
 router = APIRouter()
-searcher_service = SearcherService()
+searcher_service = DocumentSearcherService()
 
 class SearchQuery(BaseModel):
     request: str
     top_k: int = 3
+
 
 @router.post("/searcher")
 async def search_documents(query: SearchQuery):

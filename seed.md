@@ -28,3 +28,29 @@ foreach ($article in $articles) {
     Start-Sleep -Seconds 5
     $counter++
 }
+
+
+
+
+
+
+
+Instrucciones para Generación de Artículos por Grupos de Tres Categorías
+Para futuras solicitudes, por favor, utiliza el siguiente formato:
+
+"Genera 12 artículos por cada bloque de 3 categorías consecutivas, siguiendo este patrón:
+
+1 artículo individual por cada categoría del bloque.
+
+2 artículos que combinen la categoría actual con su siguiente vecina.
+
+2 artículos que combinen la categoría siguiente con la tercera categoría del bloque.
+
+2 artículos que combinen la categoría actual con la tercera categoría del bloque.
+
+3 artículos que combinen las tres categorías del bloque.
+
+Cada artículo debe tener un título, un contenido de 300 palabras, y el campo categories: [] con las categorías correspondientes. Continúa con los siguientes 3 hasta completar la lista, eliminando del prompt las categorías ya procesadas."
+
+
+

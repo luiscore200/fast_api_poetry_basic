@@ -1,4 +1,4 @@
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, Query
 from typing import List
 from uuid import uuid4
 
@@ -139,3 +139,14 @@ async def create_article(article: Article):
             details=str(e),
             status_code=500
         )
+
+
+@router.get("/count")
+def count_documents(collection: str = Query(..., enum=["document", "category"])):
+    try:
+        collection_name = "documents" if collection == "document" else "categories"
+        qdrant = QdrantORM(collection_name)
+        count = qdrant.count_points()
+        return {"collection": collection_name, "count": count}
+    except Exception as e:
+        return {"error": str(e)}    

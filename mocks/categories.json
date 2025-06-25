@@ -1,0 +1,226 @@
+[
+    {
+      "name": "vehículos",
+      "description": "autos, motos, bicicletas, camiones, scooters, monopatines, furgonetas, tractores, motocicletas, remolques, autobuses, carros, vehículos eléctricos, vehículos híbridos, vehículos autónomos, triciclos, cuatrimotos, vehículos todo terreno, caravanas, pickups, motonetas, segway, bicicletas eléctricas, ciclomotores, skates eléctricos, carritos de golf, vehículos de carga, motocarros, camiones cisterna, taxis, trenes, barcos, aviones, helicópteros, submarinos, naves espaciales, drones, veleros, yates, lanchas, botes, transbordadores, teleféricos, funiculares, montacargas"
+    },
+    {
+      "name": "tecnología",
+      "description": "inteligencia artificial, software, hardware, algoritmos, chips, robots, procesadores, sistemas operativos, bases de datos, redes neuronales, cloud computing, edge computing, ciberseguridad, IoT, blockchain, realidad aumentada, realidad virtual, deep learning, machine learning, python, javascript, lenguajes de programación, interfaces, API, sistemas distribuidos, servidores, clientes, navegadores, apps móviles, bases de código, desarrollo web, desarrollo móvil, big data, ciencia de datos, UX/UI, scrum, agile, DevOps, microservicios, contenedores, virtualización, computación cuántica, nanotecnología, bioinformática, robótica, impresión 3D, drones"
+    },
+    {
+      "name": "salud",
+      "description": "medicina, nutrición, psicología, terapia, enfermedades, tratamientos, vacunas, sistema inmunológico, hospitales, clínicas, cirugía, consultas médicas, salud mental, prevención, dietas, depresión, ansiedad, COVID-19, cardiología, neurología, oncología, dermatología, oftalmología, fisioterapia, rehabilitación, primera ayuda, urgencias, pediatría, geriatría, radiología, análisis clínicos, farmacia, enfermería, telemedicina, bienestar, fitness, ejercicio, higiene, salud pública, epidemiología, genética, microbiología, virología, parasitología, anatomía, fisiología, patología, epidemiología, farmacología, inmunología, histología"
+    },
+    {
+      "name": "finanzas",
+      "description": "acciones, bonos, inversiones, mercados financieros, bolsa de valores, criptomonedas, bitcoin, ethereum, finanzas personales, ahorro, presupuesto, préstamos, hipotecas, tarjetas de crédito, banca, seguros, fondos de inversión, bienes raíces, análisis financiero, contabilidad, auditoría, impuestos, planificación financiera, jubilación, inflación, deflación, tipos de interés, divisas, forex, derivados, capital de riesgo, crowdfunding, fintech, banca digital, blockchain, ICOs, NFTs, deuda, crédito, activos, pasivos"
+    },
+    {
+      "name": "educación",
+      "description": "escuelas, universidades, cursos, aprendizaje, estudiantes, profesores, aulas, libros, exámenes, títulos, licenciaturas, maestrías, doctorados, investigación, pedagogía, didáctica, e-learning, plataformas educativas, MOOCs, tutorías, desarrollo profesional, capacitación, becas, programas educativos, currículum, evaluación, consejería, educación a distancia, enseñanza, aprendizaje interactivo, neuroeducación, gamificación, flipped classroom, blended learning, competencias, habilidades, conocimiento, lectura, escritura, matemáticas, ciencia, historia, arte"
+    },
+    {
+      "name": "alimentación",
+      "description": "comida, bebidas, restaurantes, gastronomía, cocina, recetas, ingredientes, nutrición, dietas, alimentación saludable, comida rápida, comida casera, repostería, panadería, vinos, cervezas, café, té, frutas, verduras, carnes, pescados, lácteos, cereales, legumbres, especias, hierbas, postres, snacks, desayunos, almuerzos, cenas, bebidas alcohólicas, bebidas no alcohólicas, jugos, sodas, agua, orgánicos, vegetarianos, veganos, sin gluten, alimentos procesados, comida internacional"
+    },
+    {
+      "name": "moda",
+      "description": "ropa, accesorios, calzado, diseñadores, pasarelas, tendencias, estilo, indumentaria, vestimenta, joyas, relojes, bolsos, cinturones, gafas, sombreros, bufandas, guantes, maquillaje, peinados, cosméticos, perfumes, desfiles de moda, alta costura, prêt-à-porter, moda urbana, vintage, retro, sostenible, ética, fast fashion, slow fashion, tejidos, telas, patrones, confección, sastrería, lencería, trajes de baño, ropa deportiva, uniformes"
+    },
+    {
+      "name": "entretenimiento",
+      "description": "cine, películas, series, televisión, música, conciertos, teatro, danza, videojuegos, deportes, libros, revistas, cómics, arte, museos, galerías, espectáculos, parques temáticos, parques de atracciones, discotecas, bares, eventos, festivales, celebraciones, ocio, diversión, hobbies, juegos de mesa, juegos de rol, colecciones, viajes, turismo, fotografía, pintura, escultura, dibujo, animación, podcast, streaming, redes sociales, memes"
+    },
+    {
+      "name": "hogar",
+      "description": "casa, apartamento, muebles, decoración, electrodomésticos, cocina, baño, dormitorio, sala de estar, jardín, patio, limpieza, mantenimiento, bricolaje, reformas, diseño de interiores, arquitectura, construcción, iluminación, calefacción, aire acondicionado, seguridad del hogar, domótica, sistemas de alarma, cámaras de seguridad, mascotas, plantas, jardinería, herramientas, fontanería, electricidad, carpintería, pintura, tapicería, cortinas, alfombras, espejos"
+    },
+    {
+      "name": "viajes",
+      "description": "turismo, destinos, hoteles, aeropuertos, vuelos, trenes, autobuses, cruceros, paquetes turísticos, agencias de viajes, guías turísticas, mapas, pasaportes, visas, divisas, equipaje, vacaciones, aventura, ecoturismo, turismo cultural, turismo de playa, turismo de montaña, mochileros, campamento, senderismo, buceo, esquí, surf, excursiones, tours, atracciones turísticas, monumentos, museos, gastronomía local, festivales, eventos"
+    },
+    {
+      "name": "deportes",
+      "description": "fútbol, baloncesto, tenis, natación, atletismo, boxeo, golf, voleibol, rugby, béisbol, ciclismo, running, gimnasia, artes marciales, deportes extremos, olimpíadas, mundiales, campeonatos, ligas, equipos, atletas, entrenadores, estadios, canchas, balones, raquetas, bates, pelotas, medallas, trofeos, récords, reglas, árbitros, federaciones, patrocinios, apuestas deportivas, preparación física, nutrición deportiva, lesiones, recuperación"
+    },
+    {
+      "name": "arte",
+      "description": "pintura, escultura, dibujo, fotografía, grabado, arquitectura, música, danza, teatro, literatura, cine, performance, instalación, arte conceptual, arte abstracto, arte figurativo, surrealismo, cubismo, impresionismo, renacimiento, barroco, pop art, street art, galerías de arte, museos, exposiciones, artistas, obras de arte, colecciones, crítica de arte, historia del arte, teoría del arte, restauración, conservación, mecenazgo, mercado del arte"
+    },
+    {
+      "name": "literatura",
+      "description": "libros, novelas, cuentos, poesía, ensayos, obras de teatro, guiones, autores, editoriales, librerías, bibliotecas, lectura, escritura, géneros literarios, ficción, no ficción, fantasía, ciencia ficción, misterio, thriller, romance, histórica, biografía, autobiografía, crítica literaria, premios literarios, bestsellers, clásicos, sagas, personajes, trama, narrador, estilo, metáfora, rima, verso, prosa, gramática, ortografía"
+    },
+    {
+      "name": "música",
+      "description": "géneros musicales, artistas, bandas, canciones, álbumes, conciertos, festivales, instrumentos musicales, guitarra, piano, batería, violín, flauta, saxofón, voz, canto, composición, producción musical, grabación, mezclas, masterización, sellos discográficos, derechos de autor, streaming de música, radio, videoclips, teoría musical, solfeo, armonía, melodía, ritmo, letras, partituras, audífonos, altavoces, conciertos en vivo, música clásica, rock, pop, jazz, blues, electrónica, reggaeton, salsa, bachata, cumbia"
+    },
+    {
+      "name": "política",
+      "description": "gobierno, democracia, elecciones, partidos políticos, votaciones, leyes, constituciones, parlamento, presidente, ministros, diplomacia, relaciones internacionales, derechos humanos, justicia, seguridad, economía, políticas públicas, ideologías, capitalismo, socialismo, comunismo, anarquismo, feminismo, ecologismo, movimientos sociales, activismo, protestas, opinión pública, medios de comunicación, propaganda, lobby, corrupción, transparencia, gobernanza, ciudadanía, participación ciudadana"
+    },
+    {
+      "name": "medioambiente",
+      "description": "cambio climático, calentamiento global, contaminación, deforestación, biodiversidad, ecosistemas, energías renovables, energía solar, energía eólica, energía hidroeléctrica, reciclaje, residuos, sostenibilidad, conservación, protección animal, especies en peligro, calentamiento global, efecto invernadero, huella de carbono, recursos naturales, agua, aire, suelo, flora, fauna, ecología, medio ambiente urbano, medio ambiente rural, glaciares, océanos, ríos, lagos, desierto, selva, montañas, volcanes"
+    },
+    {
+      "name": "historia",
+      "description": "épocas, civilizaciones, imperios, guerras, revoluciones, descubrimientos, exploraciones, personajes históricos, eventos históricos, arqueología, paleontología, antropología, cronología, fuentes históricas, documentos, artefactos, monumentos, ruinas, museos de historia, historiografía, prehistoria, edad antigua, edad media, edad moderna, edad contemporánea, dinastías, monarquías, repúblicas, imperios, batallas, tratados, colonización, descolonización, genocidios, migraciones"
+    },
+    {
+      "name": "geografía",
+      "description": "países, capitales, ciudades, continentes, océanos, mares, ríos, montañas, desiertos, climas, vegetación, animales, población, demografía, mapas, atlas, coordenadas, latitud, longitud, husos horarios, fronteras, regiones, relieve, hidrografía, orografía, geología, vulcanología, sismología, cartografía, geografía física, geografía humana, geografía económica, geografía política, globalización, urbanización, ruralización"
+    },
+    {
+      "name": "ciencia",
+      "description": "física, química, biología, astronomía, matemáticas, informática, geología, oceanografía, meteorología, botánica, zoología, genética, bioquímica, biotecnología, nanotecnología, robótica, inteligencia artificial, descubrimiento, investigación, experimentos, teorías, leyes, principios, modelos, hipótesis, datos, análisis, laboratorio, científicos, publicaciones científicas, revistas científicas, congresos, becas, financiación, innovación, desarrollo, patentes"
+    },
+    {
+      "name": "cocina",
+      "description": "recetas, ingredientes, técnicas culinarias, utensilios de cocina, electrodomésticos de cocina, chefs, restaurantes, gastronomía, cocina internacional, cocina local, postres, entrantes, platos principales, salsas, sopas, ensaladas, carnes, pescados, verduras, frutas, cereales, legumbres, especias, hierbas, panadería, repostería, vinos, maridaje, catas, emplatado, presentación, higiene alimentaria, seguridad alimentaria, tendencias culinarias"
+    },
+    {
+      "name": "animales",
+      "description": "mamíferos, aves, reptiles, anfibios, peces, insectos, arácnidos, invertebrados, vertebrados, mascotas, perros, gatos, caballos, animales salvajes, animales domésticos, especies en peligro, hábitats, zoología, etología, veterinaria, alimentación animal, comportamiento animal, reproducción animal, migración animal, conservación animal, bienestar animal, parques naturales, zoológicos, santuarios, acuarios, refugios, entrenadores de animales, animales de granja, animales de compañía"
+    },
+    {
+      "name": "plantas",
+      "description": "árboles, flores, arbustos, hierbas, frutas, verduras, botánica, jardinería, horticultura, agricultura, silvicultura, especies vegetales, fotosíntesis, polinización, semillas, raíces, tallos, hojas, frutos, flores, nutrientes, suelo, agua, luz solar, plagas, enfermedades, fertilizantes, pesticidas, invernaderos, viveros, parques, jardines botánicos, plantas medicinales, plantas ornamentales, plantas comestibles, plantas tóxicas, ecología vegetal, biodiversidad vegetal"
+    },
+    {
+      "name": "construcción",
+      "description": "edificios, casas, puentes, carreteras, infraestructuras, arquitectura, ingeniería civil, materiales de construcción, cemento, hormigón, acero, madera, ladrillos, vidrio, cimientos, estructuras, techos, paredes, pisos, ventanas, puertas, fontanería, electricidad, carpintería, pintura, albañilería, seguridad en la construcción, normas de construcción, permisos, licencias, planos, diseño, urbanismo, desarrollo urbano, bienes raíces, propiedades"
+    },
+    {
+      "name": "naturaleza",
+      "description": "montañas, ríos, lagos, océanos, bosques, selvas, desiertos, glaciares, volcanes, cascadas, cuevas, valles, llanuras, climas, fenómenos naturales, terremotos, tsunamis, erupciones volcánicas, huracanes, tornados, inundaciones, sequías, tormentas, arcoíris, auroras boreales, estrellas, planetas, galaxias, universo, flora, fauna, ecosistemas, biodiversidad, conservación, medioambiente, cambio climático, calentamiento global, protección ambiental"
+    },
+    {
+      "name": "clima",
+      "description": "temperatura, humedad, precipitación, viento, presión atmosférica, fenómenos meteorológicos, tormentas, huracanes, tornados, sequías, inundaciones, nevadas, olas de calor, olas de frío, cambio climático, calentamiento global, efecto invernadero, atmósfera, nubes, pronóstico del tiempo, estaciones del año, zonas climáticas, monzones, frentes, borrascas, anticiclones, fenómenos El Niño, La Niña, radiación solar, estaciones meteorológicas, satélites meteorológicos"
+    },
+    {
+      "name": "espacio",
+      "description": "planetas, estrellas, galaxias, universo, astronomía, astrofísica, космология, cohetes, naves espaciales, satélites, astronautas, estaciones espaciales, telescopios, observatorios, exploración espacial, misiones espaciales, colonización espacial, vida extraterrestre, agujeros negros, nebulosas, cometas, asteroides, meteoritos, sistema solar, vía láctea, big bang, expansión del universo, viajes intergalácticos, gravitación, luz, tiempo"
+    },
+    {
+      "name": "filosofía",
+      "description": "ética, moral, metafísica, epistemología, lógica, estética, política, ontología, gnoseología, fenomenología, existencialismo, racionalismo, empirismo, idealismo, materialismo, nihilismo, utilitarismo, deontología, pensadores, escuelas filosóficas, Sócrates, Platón, Aristóteles, Kant, Nietzsche, Descartes, Locke, Hume, Hegel, Marx, verdad, conocimiento, realidad, existencia, mente, conciencia, libertad, justicia, belleza, bien, mal"
+    },
+    {
+      "name": "psicología",
+      "description": "mente, comportamiento, emociones, pensamientos, personalidad, desarrollo humano, trastornos mentales, terapia, psicoterapia, psicoanálisis, conductismo, cognitivismo, humanismo, neurociencia, psicología clínica, psicología social, psicología del desarrollo, psicología educativa, psicología organizacional, psicología forense, felicidad, estrés, ansiedad, depresión, trauma, autoestima, motivación, aprendizaje, memoria, percepción, inteligencia, creatividad"
+    },
+    {
+      "name": "sociología",
+      "description": "sociedad, cultura, grupos sociales, instituciones sociales, estratificación social, clases sociales, género, raza, etnia, migración, urbanización, globalización, movimientos sociales, desviación social, crimen, pobreza, desigualdad, cambio social, teoría sociológica, métodos de investigación, encuestas, entrevistas, observación, análisis de datos, sociólogos, comunidad, interacción social, normas sociales, valores, roles, estatus, identidad, colectividad"
+    },
+    {
+      "name": "derecho",
+      "description": "leyes, justicia, tribunales, abogados, jueces, sentencias, juicios, códigos, constitución, jurisprudencia, derechos humanos, derecho civil, derecho penal, derecho administrativo, derecho laboral, derecho mercantil, derecho internacional, legislación, normativas, reglamentos, litigio, arbitraje, mediación, sistema judicial, fiscalía, defensoría pública, notaría, registro, propiedad intelectual, contratos, testamentos, herencias, divorcios, delitos, faltas, prisión"
+    },
+    {
+      "name": "comercio",
+      "description": "productos, servicios, ventas, marketing, publicidad, clientes, proveedores, distribuidores, mercados, tiendas, centros comerciales, e-commerce, online, offline, importación, exportación, aduanas, logística, cadena de suministro, minorista, mayorista, franquicias, licencias, negociaciones, contratos, ofertas, descuentos, promociones, estrategias de venta, atención al cliente, fidelización, marca, posicionamiento, competencia, precios, márgenes"
+    },
+    {
+      "name": "gastronomía",
+      "description": "cocina, chefs, restaurantes, platos, recetas, ingredientes, técnicas culinarias, maridaje, cata de vinos, crítica gastronómica, historia de la cocina, gastronomía molecular, alta cocina, cocina tradicional, cocina de autor, comida callejera, food trucks, mercados gastronómicos, ferias de comida, eventos culinarios, concursos de cocina, escuelas de cocina, blogs de comida, influencers gastronómicos, tendencias culinarias, sostenibilidad en la cocina, nutrición, salud"
+    },
+    {
+      "name": "comunicación",
+      "description": "medios de comunicación, prensa, radio, televisión, internet, redes sociales, periodismo, publicidad, relaciones públicas, marketing, oratoria, retórica, lenguaje, semiótica, lingüística, comunicación verbal, comunicación no verbal, comunicación digital, comunicación interna, comunicación externa, comunicación intercultural, opinión pública, propaganda, censura, libertad de expresión, noticias, reportajes, entrevistas, editoriales, columnas, blogs, podcasts"
+    },
+    {
+      "name": "ingeniería",
+      "description": "diseño, construcción, desarrollo, proyectos, sistemas, procesos, mecánica, electrónica, civil, química, software, industrial, eléctrica, biomédica, aeroespacial, materiales, robótica, automatización, programación, algoritmos, simulación, optimización, modelado, prototipos, manufactura, calidad, eficiencia, seguridad, sostenibilidad, innovación, investigación, desarrollo tecnológico, patentes, licencias, normas, estándares"
+    },
+    {
+      "name": "arquitectura",
+      "description": "diseño arquitectónico, edificios, planos, maquetas, urbanismo, paisajismo, historia de la arquitectura, estilos arquitectónicos, materiales de construcción, estructuras, sostenibilidad, eficiencia energética, iluminación, acústica, ventilación, espacios, volúmenes, formas, texturas, colores, funcionalidad, estética, comodidad, seguridad, normativas, permisos, licencias, construcción, rehabilitación, restauración, diseño de interiores, paisajismo"
+    },
+    {
+      "name": "fotografía",
+      "description": "cámaras, lentes, objetivos, flash, trípodes, edición de fotos, retoque, composición, encuadre, iluminación, exposición, apertura, velocidad, ISO, filtros, blanco y negro, color, fotografía de paisaje, retrato, macro, callejera, documental, de moda, de producto, nocturna, astrofotografía, fotógrafos, estudios de fotografía, exposiciones, galerías, impresión, revelado, álbumes, redes sociales, drones, vídeos"
+    },
+    {
+      "name": "juegos",
+      "description": "videojuegos, juegos de mesa, juegos de rol, juegos de cartas, juegos de azar, juegos de habilidad, juegos de estrategia, consolas, PC gaming, móviles, online, offline, multijugador, un jugador, eSports, desarrollo de videojuegos, diseño de juegos, game art, game design, programadores, testers, streamers, youtubers, comunidades, torneos, premios, géneros, aventura, acción, estrategia, rol, simulación, deportes, puzles, realidad virtual, realidad aumentada"
+    },
+    {
+      "name": "misterio",
+      "description": "crímenes, detectives, investigaciones, enigmas, secretos, conspiraciones, asesinatos, desapariciones, robos, secuestros, espionaje, suspense, thrillers, novela negra, policíaca, forense, pruebas, pistas, sospechosos, víctimas, asesinos, motivos, interrogatorios, autopsias, ADN, huellas dactilares, testigos, fiscales, abogados, jueces, sentencias, cárceles, casos sin resolver, teorías de conspiración, fenómenos inexplicables"
+    },
+    {
+      "name": "fantasía",
+      "description": "mundos mágicos, criaturas míticas, dragones, elfos, enanos, orcos, hadas, brujos, hechiceros, héroes, villanos, reinos, profecías, espadas, magia, poderes, aventuras, búsqueda, épica, mitología, leyendas, cuentos de hadas, literatura fantástica, juegos de rol, películas de fantasía, series de fantasía, ilustraciones, arte conceptual, cosplay, convenciones, sagas, personajes, conjuros, hechizos, portales, artefactos mágicos"
+    },
+    {
+      "name": "ciencia ficción",
+      "description": "futuro, espacio, viajes en el tiempo, alienígenas, robots, inteligencias artificiales, distopías, utopías, clonación, biotecnología, nanotecnología, realidad virtual, realidad aumentada, colonización espacial, exploración espacial, naves espaciales, universos paralelos, mutaciones, superpoderes, ciborgs, androides, tecnología avanzada, catástrofes, post-apocalipsis, ciencia especulativa, física cuántica, agujeros negros, exoplanetas, vida extraterrestre, singularidad tecnológica"
+    },
+    {
+      "name": "terror",
+      "description": "miedo, suspenso, horror, criaturas, monstruos, fantasmas, vampiros, hombres lobo, zombies, demonios, brujas, espíritus, casas encantadas, bosques oscuros, cementerios, psicópatas, asesinos en serie, gore, slasher, posesiones, exorcismos, maldiciones, rituales, ocultismo, sobrenatural, pesadillas, fobias, pánico, sustos, sangre, gore, gore, tortura, secuestro, canibalismo, locura, aislamiento, supervivencia, oscuridad, gritos, gritos, persecución"
+    },
+    {
+      "name": "romance",
+      "description": "amor, relaciones, parejas, citas, noviazgo, matrimonio, pasión, deseo, celos, infidelidad, reconciliación, corazones rotos, primeros amores, almas gemelas, historias de amor, novelas románticas, películas románticas, comedias románticas, dramas románticos, poesía de amor, canciones de amor, declaraciones de amor, San Valentín, bodas, lunas de miel, anillos, regalos, flores, chocolate, besos, abrazos, caricias, seducción, conquista"
+    },
+    {
+      "name": "negocios",
+      "description": "empresas, emprendimiento, startups, pymes, grandes corporaciones, CEOs, directivos, empleados, inversores, accionistas, capital, financiación, rentabilidad, pérdidas, ganancias, marketing, ventas, publicidad, contabilidad, finanzas, recursos humanos, gestión, liderazgo, innovación, estrategia, planificación, desarrollo de negocios, fusiones, adquisiciones, bancarrota, mercado, competencia, clientes, proveedores, distribución, globalización, sostenibilidad, responsabilidad social corporativa"
+    },
+    {
+      "name": "marketing",
+      "description": "publicidad, ventas, comunicación, branding, posicionamiento, estrategias de marketing, marketing digital, redes sociales, SEO, SEM, content marketing, email marketing, marketing de influencers, marketing de afiliados, marketing relacional, marketing de guerrilla, marketing viral, neuromarketing, investigación de mercados, análisis de datos, segmentación, targeting, propuesta de valor, buyer persona, embudo de ventas, conversión, ROI, KPI, campañas, creatividad, diseño"
+    },
+    {
+      "name": "publicidad",
+      "description": "anuncios, campañas publicitarias, creatividad, diseño gráfico, copy, eslóganes, jingles, medios publicitarios, televisión, radio, prensa, revistas, internet, redes sociales, vallas publicitarias, publicidad exterior, publicidad online, publicidad nativa, advergaming, branded content, patrocinios, endorsers, influencers, agencias de publicidad, directores creativos, copywriters, diseñadores, planners, investigación de mercados, medición de audiencia, efectividad publicitaria, ética publicitaria"
+    },
+    {
+      "name": "diseño",
+      "description": "diseño gráfico, diseño web, diseño UX/UI, diseño de producto, diseño industrial, diseño de interiores, diseño de moda, diseño de joyas, diseño de mobiliario, diseño automotriz, diseño de envases, diseño de iluminación, diseño de interacción, diseño de servicios, creatividad, estética, funcionalidad, ergonomía, materiales, colores, formas, texturas, tipografía, composición, bocetos, prototipos, renders, software de diseño, herramientas de diseño, diseñadores, estudios de diseño"
+    },
+    {
+      "name": "medios",
+      "description": "periodismo, noticias, radio, televisión, periódicos, revistas, internet, redes sociales, blogs, podcasts, streaming, cine, documentales, series, entretenimiento, informativos, opinión, reportajes, entrevistas, editoriales, columnas, crónicas, corresponsales, presentadores, locutores, redactores, fotógrafos, camarógrafos, editores, productores, directores, audiencias, ratings, suscripciones, publicidad, monetización, fake news, desinformación, verificación de hechos, ética periodística"
+    },
+    {
+      "name": "sociedad",
+      "description": "cultura, tradiciones, costumbres, valores, normas, roles, estatus, grupos sociales, comunidades, instituciones, familia, matrimonio, educación, religión, política, economía, salud, medioambiente, justicia, seguridad, derechos humanos, desigualdad, pobreza, exclusión social, movimientos sociales, activismo, participación ciudadana, globalización, multiculturalismo, diversidad, inclusión, discriminación, estereotipos, prejuicios, identidades, género, raza, etnia, edad, clase social"
+    },
+    {
+      "name": "gobierno",
+      "description": "democracia, monarquía, república, dictadura, anarquía, elecciones, partidos políticos, votaciones, leyes, constituciones, parlamento, congreso, senado, presidente, primer ministro, ministros, secretarías, departamentos, agencias, políticas públicas, presupuestos, impuestos, servicios públicos, seguridad nacional, defensa, diplomacia, relaciones internacionales, tratados, acuerdos, leyes, reglamentos, derechos civiles, deberes, ciudadanía, participación cívica, corrupción, transparencia"
+    },
+    {
+      "name": "energía",
+      "description": "electricidad, gas, petróleo, carbón, nuclear, renovables, solar, eólica, hidroeléctrica, geotérmica, biomasa, biocombustibles, fuentes de energía, producción de energía, consumo de energía, eficiencia energética, ahorro de energía, redes eléctricas, centrales eléctricas, turbinas, paneles solares, aerogeneradores, baterías, almacenamiento de energía, combustibles fósiles, energías limpias, emisiones de carbono, cambio climático, sostenibilidad, geopolítica energética, mercados energéticos"
+    },
+    {
+      "name": "transporte",
+      "description": "autos, trenes, autobuses, aviones, barcos, bicicletas, motos, metro, tranvía, taxi, vehículos eléctricos, híbridos, autónomos, infraestructura, carreteras, vías férreas, aeropuertos, puertos, estaciones, terminales, logística, cadena de suministro, distribución, tráfico, congestión, seguridad vial, accidentes, contaminación, transporte público, transporte de carga, transporte de pasajeros, transporte intermodal, smart cities, movilidad, vehículos compartidos, carpooling, bicicletas compartidas"
+    },
+    {
+      "name": "ingeniería de software",
+      "description": "desarrollo de software, programación, lenguajes de programación, python, java, javascript, C#, C++, frameworks, librerías, algoritmos, estructuras de datos, bases de datos, sistemas operativos, redes, seguridad informática, testing, depuración, control de versiones, Git, metodologías ágiles, Scrum, Kanban, DevOps, microservicios, APIs, cloud computing, contenedores, virtualización, inteligencia artificial, machine learning, deep learning, desarrollo web, desarrollo móvil, big data"
+    },
+    {
+      "name": "biología",
+      "description": "células, tejidos, órganos, sistemas, organismos, vida, genética, ADN, ARN, evolución, ecología, biodiversidad, botánica, zoología, microbiología, bioquímica, biotecnología, fisiología, anatomía, taxonomía, biología molecular, biología celular, biología marina, biología de la conservación, biología del desarrollo, inmunología, virología, parasitología, neurociencia, biología sintética, edición genética, CRISPR, genomas, proteínas, enzimas"
+    },
+    {
+      "name": "matemáticas",
+      "description": "álgebra, geometría, cálculo, trigonometría, estadística, probabilidad, aritmética, lógica, números, ecuaciones, funciones, teoremas, demostraciones, algoritmos, modelos, gráficos, series, secuencias, vectores, matrices, conjuntos, topología, análisis, optimización, combinatoria, teoría de números, ecuaciones diferenciales, matemáticas discretas, matemáticas aplicadas, matemáticas puras, criptografía, inteligencia artificial, machine learning, ciencia de datos, big data"
+    },
+    {
+      "name": "idiomas",
+      "description": "español, inglés, francés, alemán, italiano, portugués, chino, japonés, coreano, árabe, ruso, latín, griego, sánscrito, gramática, vocabulario, pronunciación, sintaxis, semántica, fonética, fonología, morfología, lingüística, dialectos, acentos, traducción, interpretación, aprendizaje de idiomas, enseñanza de idiomas, bilingüismo, poliglotismo, comunicación intercultural, escritura, lectura, habla, escucha, expresiones idiomáticas"
+    },
+    {
+      "name": "cocina gourmet",
+      "description": "alta cocina, chefs de prestigio, restaurantes con estrellas Michelin, técnicas culinarias avanzadas, ingredientes exóticos, maridaje, cata de vinos, crítica gastronómica, innovación culinaria, cocina de autor, gastronomía molecular, emplatado, presentación, eventos gastronómicos, festivales culinarios, concursos de cocina, escuelas de alta cocina, libros de cocina gourmet, revistas especializadas, tendencias gastronómicas, experiencias culinarias, catas de productos, talleres de cocina, maridaje de quesos, postres sofisticados, aperitivos, entrantes, platos principales"
+    }
+  ]

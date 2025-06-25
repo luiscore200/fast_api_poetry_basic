@@ -8,10 +8,12 @@ from src.common.services.embeddings_service import EmbeddingService
 from src.searcher.searcher_controller import router as search_router
 
 load_dotenv()
-app = FastAPI()
+app = FastAPI() # Eliminar json_encoders para UUID
 
-app.include_router(articles_router, prefix="/articles") 
+app.include_router(articles_router, prefix="/document") 
 app.include_router(search_router, prefix="/assistant") 
+
+
 
 # Handler global para excepciones no manejadas
 @app.exception_handler(Exception)
@@ -19,6 +21,7 @@ async def global_exception_handler(request: Request, exc: Exception):
     """
     Maneja excepciones no capturadas y devuelve una respuesta de error estandarizada.
     """
+
     print(f"Unhandled error: {exc}")
     return ResponseManager.error(
         message=f"Ocurrió un error interno del servidor: {exc}",
@@ -46,15 +49,15 @@ async def startup_event():
             "content": {"type": "text"},
             
         }  
+    
               
-
-
     repo = QdrantORM("documents")
     #repo.delete_collection() 
     repo.create_collection_if_not_exists(vector_dim=len(dummy_vector), payload_schema=document_payload)
 
     category_repo = QdrantORM("categories")
     #category_repo.delete_collection() 
+
     category_repo.create_collection_if_not_exists(vector_dim=len(dummy_vector), payload_schema=category_payload)
 
 
@@ -64,4 +67,3 @@ async def startup_event():
 @app.get("/")
 def read_root():
     return {"Hello": "World"}
-
