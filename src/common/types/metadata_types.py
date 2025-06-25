@@ -21,7 +21,7 @@ class ChunkOutput(BaseModel):
     generated: Metadata  # generado por el LLM
     merged_tags: List[str]
     merged_categories: List[str]
-    embedding: Optional[List[float]] = None
+    vector: Optional[List[float]] = None
 
 
 class FullDocumentChunksOutput(BaseModel):

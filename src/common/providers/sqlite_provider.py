@@ -20,6 +20,8 @@ class SQLiteProvider:
         conn = self._get_connection()
         try:
             cursor = conn.cursor()
+
+            # Artículos
             cursor.execute("""
                 CREATE TABLE IF NOT EXISTS articles (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -27,27 +29,38 @@ class SQLiteProvider:
                     content TEXT NOT NULL
                 );
             """)
-            cursor.execute("""
-                CREATE TABLE IF NOT EXISTS tags (
-                    id INTEGER PRIMARY KEY AUTOINCREMENT,
-                    name TEXT NOT NULL UNIQUE
-                );
-            """)
+
+            # Categorías
             cursor.execute("""
                 CREATE TABLE IF NOT EXISTS categories (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
                     name TEXT NOT NULL UNIQUE
                 );
             """)
+
+            # Tags
             cursor.execute("""
-                CREATE TABLE IF NOT EXISTS article_tags (
-                    article_id INTEGER,
-                    tag_id INTEGER,
-                    PRIMARY KEY (article_id, tag_id),
-                    FOREIGN KEY (article_id) REFERENCES articles(id) ON DELETE CASCADE,
-                    FOREIGN KEY (tag_id) REFERENCES tags(id) ON DELETE CASCADE
+                CREATE TABLE IF NOT EXISTS tags (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    name TEXT NOT NULL UNIQUE,
+                    category_id INTEGER,
+                    FOREIGN KEY (category_id) REFERENCES categories(id) ON DELETE SET NULL
                 );
             """)
+
+            # Relación artículos - tags
+            cursor.execute("""
+                CREATE TABLE IF NOT EXISTS tag_categories (
+                    tag_id INTEGER,
+                    category_id INTEGER,
+                    PRIMARY KEY (tag_id, category_id),
+                    FOREIGN KEY (tag_id) REFERENCES tags(id) ON DELETE CASCADE,
+                    FOREIGN KEY (category_id) REFERENCES categories(id) ON DELETE CASCADE
+
+                );
+            """)
+
+            # Relación artículos - categorías
             cursor.execute("""
                 CREATE TABLE IF NOT EXISTS article_categories (
                     article_id INTEGER,
@@ -57,6 +70,18 @@ class SQLiteProvider:
                     FOREIGN KEY (category_id) REFERENCES categories(id) ON DELETE CASCADE
                 );
             """)
+
+            # Relación artículos - tags
+            cursor.execute("""
+                CREATE TABLE IF NOT EXISTS article_tags (
+                    article_id INTEGER,
+                    tag_id INTEGER,
+                    PRIMARY KEY (article_id, tag_id),
+                    FOREIGN KEY (article_id) REFERENCES articles(id) ON DELETE CASCADE,
+                    FOREIGN KEY (tag_id) REFERENCES tags(id) ON DELETE CASCADE
+                );
+            """)
+
             conn.commit()
         except sqlite3.Error as e:
             print(f"Error al crear/verificar tablas de SQLite: {e}")
@@ -141,3 +166,42 @@ class SQLiteProvider:
         else:
             query = f"SELECT * FROM {table}"
             return self.fetch_all(query)
+
+    def join_tables(
+        self,
+        table_a: str,
+        table_b: str,
+        on: str,
+        a_fields: list[str],
+        b_fields: list[str],
+        where: Optional[List[Dict[str, Any]]] = None
+    ) -> List[Dict[str, Any]]:
+       
+        select_clause = ", ".join([f"a.{f}" for f in a_fields] + [f"b.{f}" for f in b_fields])
+        query = f"""
+            SELECT {select_clause}
+            FROM {table_a} a
+            JOIN {table_b} b ON {on}
+        """
+
+        params = []
+        if where:
+            conditions = []
+            for condition in where:
+                table_alias = condition.get("table", "a")
+                field = condition["field"]
+                value = condition["value"]
+                conditions.append(f"{table_alias}.{field} = ?")
+                params.append(value)
+            query += " WHERE " + " AND ".join(conditions)
+
+        rows = self.fetch_all(query, tuple(params))
+        
+        # Mapear resultados a lista de diccionarios
+        result = []
+        for row in rows:
+            combined = {}
+            for i, field in enumerate(a_fields + b_fields):
+                combined[field] = row[i]
+            result.append(combined)
+        return result

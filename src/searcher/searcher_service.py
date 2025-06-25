@@ -2,11 +2,12 @@ from typing import Optional, List, Dict, Any
 from langchain_core.prompts import ChatPromptTemplate
 from pydantic import BaseModel, Field
 from langchain_core.output_parsers import JsonOutputParser
+from qdrant_client.http.models import ScoredPoint
+
 from src.common.providers.llm_provider import LLMProvider
 from src.common.providers.sqlite_provider import SQLiteProvider
-from src.common.repositories.qdrant_repository import QdrantRepository
+from src.common.repositories.qdrant_repository import QdrantORM
 from src.common.services.embeddings_service import EmbeddingService
-from qdrant_client.http.models import ScoredPoint
 
 
 class BusquedaVectorialOutput(BaseModel):
@@ -27,7 +28,7 @@ class SearcherService:
              "categorías y sentimiento. Las categorías y tags deben ir en español. Devuelve un JSON válido con el esquema dado."),
             ("human", "Prompt: {user_prompt}\n\nFormato esperado:\n{format_instructions}")
         ])
-        self.qdrant = QdrantRepository()
+        self.qdrant = QdrantORM("documents")  # ✅ Colección concreta
         self.sqlite = SQLiteProvider()
         self.embedding_service = EmbeddingService(model_type="local")
 
@@ -57,10 +58,16 @@ class SearcherService:
             print("🧬 Vector generado: ", query_vector[:10], "...")
 
             print("🔎 Ejecutando búsqueda vectorial...")
+
+            filters = {}
+            if bvo.tags:
+                filters["merged_tags"] = bvo.tags
+            if bvo.categories:
+                filters["merged_categories"] = bvo.categories
+
             results: List[ScoredPoint] = self.qdrant.search(
                 query_vector=query_vector,
-                tags=bvo.tags,
-                categories=bvo.categories,
+                filters=filters,
                 top_k=top_k
             )
 
@@ -90,13 +97,6 @@ class SearcherService:
         print("🚀 Iniciando búsqueda completa...")
         try:
             bvo = await self.analyze_prompt(user_prompt, provider=provider)
-
-            if not isinstance(bvo, BusquedaVectorialOutput):
-                try:
-                    bvo = BusquedaVectorialOutput(**bvo)
-                except Exception as parse_error:
-                    print(f"❌ Error convirtiendo dict a BusquedaVectorialOutput: {parse_error}")
-                    bvo = BusquedaVectorialOutput(query_vectorial=user_prompt)
 
             results = await self.run_semantic_search(bvo, top_k=top_k)
 

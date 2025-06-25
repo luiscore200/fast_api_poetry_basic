@@ -1,4 +1,5 @@
-from typing import List, Optional
+from typing import List, Optional, Dict, Any, Union
+from qdrant_client import QdrantClient
 from qdrant_client.http.models import (
     PointStruct,
     VectorParams,
@@ -7,103 +8,99 @@ from qdrant_client.http.models import (
     FieldCondition,
     MatchAny,
     SearchParams,
-    ScoredPoint
+    ScoredPoint,
 )
 from src.common.providers.qdrant_provider import get_qdrant_client
-from src.common.types.metadata_types import ChunkOutput
 
 
-def build_filter(tags: list[str], categories: list[str]) -> Optional[Filter]:
-    conditions = []
-
-    if tags:
-        conditions.append(FieldCondition(key="merged_tags", match=MatchAny(any=tags)))
-
-    if categories:
-        conditions.append(FieldCondition(key="merged_categories", match=MatchAny(any=categories)))
-
-    if conditions:
-        return Filter(should=conditions)  # lógica OR
-    return None
-
-
-class QdrantRepository:
-    def __init__(self, collection_name: str = "documents"):
-        self.qdrant_client = get_qdrant_client()
+class QdrantORM:
+    def __init__(self, collection_name: str):
+        self.client: QdrantClient = get_qdrant_client()
         self.collection_name = collection_name
 
     def collection_exists(self) -> bool:
-        collections = self.qdrant_client.get_collections().collections
+        collections = self.client.get_collections().collections
         return any(c.name == self.collection_name for c in collections)
 
-    def create_collection_if_not_exists(self, embedding_example: List[float]):
+    def create_collection_if_not_exists(
+        self,
+        vector_dim: int,
+        payload_schema: Optional[Dict[str, Dict[str, str]]] = None
+    ):
         if not self.collection_exists():
-            if embedding_example is None:
-                raise ValueError("Se requiere un embedding de ejemplo para definir el tamaño del vector.")
-            size = len(embedding_example)
-            self.qdrant_client.create_collection(
+            self.client.create_collection(
                 collection_name=self.collection_name,
-                vectors_config=VectorParams(size=size, distance=Distance.COSINE)
+                vectors_config=VectorParams(size=vector_dim, distance=Distance.COSINE)
             )
-            print(f"✅ Colección '{self.collection_name}' creada con dimensión {size}.")
+            print(f"✅ Colección '{self.collection_name}' creada con dimensión {vector_dim}.")
+
+            # Crear índices para filtrado, si se proporciona un esquema
+            if payload_schema:
+                for field_name, index_config in payload_schema.items():
+                    try:
+                        self.client.create_payload_index(
+                            collection_name=self.collection_name,
+                            field_name=field_name,
+                            field_schema=index_config["type"]
+                        )
+                        print(f"🔍 Índice creado para '{field_name}' tipo {index_config['type']}")
+                    except Exception as e:
+                        print(f"❌ Error creando índice para '{field_name}': {e}")
 
     def delete_collection(self):
         if self.collection_exists():
-            self.qdrant_client.delete_collection(collection_name=self.collection_name)
+            self.client.delete_collection(collection_name=self.collection_name)
             print(f"🗑️ Colección '{self.collection_name}' eliminada.")
 
-    def insert_chunks(self, chunks: List[ChunkOutput]):
-        if not chunks:
-            print("⚠️ No se proporcionaron chunks para insertar.")
+    def insert_points(self, points: List[Dict[str, Any]]):
+        if not points:
+            print("⚠️ No se proporcionaron puntos para insertar.")
             return
 
-        self.create_collection_if_not_exists(embedding_example=chunks[0].embedding)
+        sample_vector = points[0].get("vector")
+        if not sample_vector:
+            raise ValueError("Cada punto debe incluir un vector.")
 
-        points: List[PointStruct] = []
-        for chunk in chunks:
-            if not chunk.embedding:
-                continue
+        self.create_collection_if_not_exists(vector_dim=len(sample_vector))
 
-            point_id = int(f"{chunk.document_id:03}{chunk.chunk_id:03}")
+        point_structs = [
+            PointStruct(id=p["id"], vector=p["vector"], payload=p.get("payload", {}))
+            for p in points
+        ]
 
-            points.append(PointStruct(
-                id=point_id,
-                vector=list(chunk.embedding),
-                payload={
-                    "chunk_id": chunk.chunk_id,
-                    "document_id": chunk.document_id,
-                    "original_tags": chunk.original.tags,
-                    "original_categories": chunk.original.categories,
-                    "generated_tags": chunk.generated.tags,
-                    "generated_categories": chunk.generated.categories,
-                    "merged_tags": chunk.merged_tags,
-                    "merged_categories": chunk.merged_categories,
-                }
-            ))
-
-        self.qdrant_client.upsert(collection_name=self.collection_name, points=points)
-        print(f"📌 {len(points)} chunks insertados en Qdrant.")
+        self.client.upsert(collection_name=self.collection_name, points=point_structs)
+        print(f"📌 {len(points)} puntos insertados en '{self.collection_name}'.")
 
     def search(
         self,
-        query_vector: list[float],
-        tags: list[str],
-        categories: list[str],
-        top_k: int = 3
-    ) -> list[ScoredPoint]:
-        query_filter = build_filter(tags, categories)
-
+        query_vector: List[float],
+        filters: Optional[Dict[str, Union[str, List[str]]]] = None,
+        top_k: int = 5
+    ) -> List[ScoredPoint]:
+        qdrant_filter = self._build_filter(filters)
         try:
-            results = self.qdrant_client.search(
+            results = self.client.search(
                 collection_name=self.collection_name,
                 query_vector=query_vector,
                 limit=top_k,
                 search_params=SearchParams(hnsw_ef=128),
-                query_filter=query_filter
+                query_filter=qdrant_filter
             )
-            print(f"✅ {len(results)} resultados encontrados en Qdrant.")
+            print(f"✅ {len(results)} resultados encontrados en '{self.collection_name}'.")
             return results
-
         except Exception as e:
             print(f"❌ Error en búsqueda Qdrant: {e}")
             return []
+
+    def _build_filter(self, filters: Optional[Dict[str, Union[str, List[str]]]]) -> Optional[Filter]:
+        if not filters:
+            return None
+
+        conditions = []
+        for key, value in filters.items():
+            if isinstance(value, list):
+                conditions.append(FieldCondition(key=key, match=MatchAny(any=value)))
+            else:
+                conditions.append(FieldCondition(key=key, match=MatchAny(any=[value])))
+
+        return Filter(should=conditions) if conditions else None
