@@ -28,8 +28,8 @@ __pycache__/
 
 
 # Bases de datos locales o temporales
-*.sqlite3
-*.db
+#*.sqlite3
+#*.db
 
 # Carpeta de resultados temporales, si aplicara
 tmp/
