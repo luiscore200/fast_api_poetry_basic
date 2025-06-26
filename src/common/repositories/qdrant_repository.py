@@ -72,6 +72,30 @@ class QdrantORM:
         print(f"📌 {len(points)} puntos insertados en '{self.collection_name}'.")
 
 
+    def delete_by_payload_key(self, key: str, value: Union[str, int]) -> bool:
+        """
+        Elimina puntos que tengan un valor específico en el payload.
+        Ejemplo: key = "category_id", value = 5
+        """
+        try:
+            qdrant_filter = Filter(
+                should=[
+                    FieldCondition(
+                        key=key,
+                        match=MatchAny(any=[value])
+                    )
+                ]
+            )
+            self.client.delete(
+                collection_name=self.collection_name,
+                points_selector=qdrant_filter
+            )
+            print(f"🗑️ Puntos con '{key} = {value}' eliminados de '{self.collection_name}'.")
+            return True
+        except Exception as e:
+            print(f"❌ Error eliminando puntos con '{key} = {value}': {e}")
+            return False
+
     def search(
         self,
         query_vector: List[float],

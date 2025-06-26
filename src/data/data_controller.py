@@ -22,46 +22,33 @@ router = APIRouter()
 @router.post("/")
 async def create_article(article: Article):
     try:
-        print("📥 Recibido artículo:", article.dict())
+        print("📅 Recibido artículo:", article.dict())
 
-        # 1. Insertar artículo
         document_id = sqlite_provider.insert("articles", {
             "tittle": article.title,
             "content": article.content
         })
         print(f"✅ Artículo insertado con ID: {document_id}")
 
-        # 2. Insertar categorías
+        # 1. Insertar categorías
         category_name_to_id = {}
         for category in article.categories:
             existing = sqlite_provider.find("categories", where={"name": category})
             if existing:
                 category_id = existing[0][0]
             else:
-                category_id = sqlite_provider.insert("categories", {"name": category})
-
-                # Embedding y metadata para nueva categoría
-                vector = await embedding_service.generate(category)
-                category_vector_data = {
-                    "id": str(uuid4()),
-                    "payload":{
-                        "category_id": category_id,
-                        "content": category,
-                    },
-                    "vector": vector
-                }
-                category_repo.insert_points([category_vector_data])
-                print(f"📊 Nueva categoría vectorizada e insertada en Qdrant: {category}")
-
+                category_id = sqlite_provider.insert("categories", {"name": category, "description": ""})
             category_name_to_id[category] = category_id
 
             sqlite_provider.insert("article_categories", {
                 "article_id": document_id,
                 "category_id": category_id
             })
-            print(f"📂 Categoría '{category}' vinculada con ID: {category_id}")
+            print(f"📄 Categoría '{category}' vinculada con ID: {category_id}")
 
-       # 3. Insertar tags y vincular a múltiples categorías
+        # 2. Insertar tags y vincular a categorías
+        tag_list_by_category = {cat: [] for cat in article.categories}
+
         for tag in article.tags:
             existing = sqlite_provider.find("tags", where={"name": tag})
             if existing:
@@ -70,7 +57,6 @@ async def create_article(article: Article):
                 tag_id = sqlite_provider.insert("tags", {"name": tag})
                 print(f"🏷️ Tag '{tag}' insertado con ID: {tag_id}")
 
-            # Relacionar tag con todas las categorías del artículo
             for category in article.categories:
                 category_id = category_name_to_id[category]
                 exists = sqlite_provider.find("tag_categories", where={"tag_id": tag_id, "category_id": category_id})
@@ -79,33 +65,52 @@ async def create_article(article: Article):
                         "tag_id": tag_id,
                         "category_id": category_id
                     })
+                    tag_list_by_category[category].append(tag)
 
-            # Relacionar con el artículo
             sqlite_provider.insert("article_tags", {
                 "article_id": document_id,
                 "tag_id": tag_id
             })
 
+        # 3. Actualizar descripción semántica y vectorizar categoría
+        for category in article.categories:
+            category_id = category_name_to_id[category]
+            existing_desc = sqlite_provider.find("categories", where={"id": category_id})[0][2] or ""
+            tags_for_category = tag_list_by_category[category]
+            enriched_description = ",".join([existing_desc] + tags_for_category).strip(",")
+            sqlite_provider.update("categories", {"description": enriched_description}, where={"id": category_id})
+            print(f"🔄 Descripción enriquecida para '{category}': {enriched_description}")
+
+            # Re-vectorizar
+            category_repo.delete_by_payload_key("category_id", category_id)
+            vector = await embedding_service.generate(enriched_description)
+            category_vector_data = {
+                "id": str(uuid4()),
+                "payload": {
+                    "category_id": category_id,
+                    "name": category,
+                    "content": enriched_description
+                },
+                "vector": vector
+            }
+            category_repo.insert_points([category_vector_data])
+            print(f"📊 Categoría '{category}' actualizada y reinsertada en Qdrant")
 
         # 4. Chunking
         chunks: List[str] = await document_service.split_text(article.content)
         print(f"🧹 Texto dividido en {len(chunks)} chunks")
 
-        # 5. Título a cada chunk
         chunks_with_title: List[str] = [f"Título: {article.title}\n\n{chunk}" for chunk in chunks]
 
-        # 6. Metadata
         result: FullDocumentChunksOutput = await document_service.generate_metadata_chunks(
             chunks=chunks_with_title,
             base_metadata=article,
             document_id=document_id
         )
 
-        # 7. Embeddings
         for chunk in result.chunks:
             chunk.vector = await embedding_service.generate(chunk.content)
 
-        # 8. Insertar en Qdrant
         points = [
             {
                 "id": chunk.chunk_id,
@@ -125,7 +130,7 @@ async def create_article(article: Article):
         ]
 
         document_repo.insert_points(points)
-        
+
         return ResponseManager.success(
             data=result.dict(),
             message="Artículo procesado exitosamente",
@@ -149,4 +154,4 @@ def count_documents(collection: str = Query(..., enum=["document", "category"]))
         count = qdrant.count_points()
         return {"collection": collection_name, "count": count}
     except Exception as e:
-        return {"error": str(e)}    
+        return {"error": str(e)}

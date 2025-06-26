@@ -46,6 +46,7 @@ async def startup_event():
         }         
     category_payload = {
             "category_id": {"type": "integer"},
+            "name":{"type":"text"},
             "content": {"type": "text"},
             
         }  
