@@ -37,7 +37,7 @@ async def create_article(article: Article):
             if existing:
                 category_id = existing[0][0]
             else:
-                category_id = sqlite_provider.insert("categories", {"name": category, "description": ""})
+                category_id = sqlite_provider.insert("categories", {"name": category, "description": category})
             category_name_to_id[category] = category_id
 
             sqlite_provider.insert("article_categories", {
@@ -77,7 +77,7 @@ async def create_article(article: Article):
             category_id = category_name_to_id[category]
             existing_desc = sqlite_provider.find("categories", where={"id": category_id})[0][2] or ""
             tags_for_category = tag_list_by_category[category]
-            enriched_description = ",".join([existing_desc] + tags_for_category).strip(",")
+            enriched_description = ", ".join([existing_desc] + tags_for_category).strip(",")
             sqlite_provider.update("categories", {"description": enriched_description}, where={"id": category_id})
             print(f"🔄 Descripción enriquecida para '{category}': {enriched_description}")
 
