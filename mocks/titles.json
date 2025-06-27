@@ -1,0 +1,2765 @@
+
+[
+  {
+    "titulo": "El futuro de la movilidad: Innovaciones en vehículos eléctricos",
+    "categorias": ["Vehículos"]
+  },
+  {
+    "titulo": "La inteligencia artificial al servicio de la salud: Diagnóstico y tratamiento",
+    "categorias": ["Tecnología"]
+  },
+  {
+    "titulo": "¿Cómo mantener una buena salud mental en la era digital?",
+    "categorias": ["Salud"]
+  },
+  {
+    "titulo": "Vehículos autónomos y tecnología de punta: ¿El fin de los accidentes?",
+    "categorias": ["Vehículos", "Tecnología"]
+  },
+  {
+    "titulo": "Aplicaciones móviles para el bienestar: Tecnología que cuida tu salud",
+    "categorias": ["Tecnología", "Salud"]
+  },
+  {
+    "titulo": "El impacto de los vehículos en la salud pública: Contaminación y soluciones",
+    "categorias": ["Vehículos", "Salud"]
+  },
+  {
+    "titulo": "Movilidad inteligente, salud conectada: La fusión de vehículos, tecnología y bienestar",
+    "categorias": ["Vehículos", "Tecnología", "Salud"]
+  },
+  {
+    "titulo": "Inversiones inteligentes: Estrategias para el mercado de acciones",
+    "categorias": ["Finanzas"]
+  },
+  {
+    "titulo": "Tecnología educativa: Herramientas digitales para un aprendizaje efectivo",
+    "categorias": ["Educación"]
+  },
+  {
+    "titulo": "La importancia de una alimentación balanceada para tu bienestar",
+    "categorias": ["Alimentación"]
+  },
+  {
+    "titulo": "Finanzas personales en la era digital: Criptomonedas y blockchain",
+    "categorias": ["Finanzas", "Tecnología"]
+  },
+  {
+    "titulo": "Blockchain y educación: El futuro de la certificación académica",
+    "categorias": ["Tecnología", "Educación"]
+  },
+  {
+    "titulo": "Nutrición y finanzas: Cómo una dieta saludable impacta tu bolsillo",
+    "categorias": ["Alimentación", "Finanzas"]
+  },
+  {
+    "titulo": "El aula del futuro: Tecnología, finanzas y educación para la nueva generación",
+    "categorias": ["Finanzas", "Educación", "Tecnología"]
+  },
+  {
+    "titulo": "La moda sostenible: Vestir con conciencia ambiental",
+    "categorias": ["Moda"]
+  },
+  {
+    "titulo": "Entretenimiento en casa: Plataformas de streaming y videojuegos",
+    "categorias": ["Entretenimiento"]
+  },
+  {
+    "titulo": "Consejos para un hogar inteligente: Automatización y eficiencia",
+    "categorias": ["Hogar"]
+  },
+  {
+    "titulo": "Tecnología en la moda: Del diseño 3D a la ropa inteligente",
+    "categorias": ["Moda", "Tecnología"]
+  },
+  {
+    "titulo": "Dispositivos inteligentes para el hogar: Conectando tu espacio",
+    "categorias": ["Hogar", "Tecnología"]
+  },
+  {
+    "titulo": "Deportes y entretenimiento: La evolución de los eSports",
+    "categorias": ["Deportes", "Entretenimiento"]
+  },
+  {
+    "titulo": "La casa del futuro: Hogar, tecnología y entretenimiento integrados",
+    "categorias": ["Hogar", "Tecnología", "Entretenimiento"]
+  },
+  {
+    "titulo": "Viajes sostenibles: Descubriendo el mundo de forma responsable",
+    "categorias": ["Viajes"]
+  },
+  {
+    "titulo": "El arte como inversión: Explorando el mercado del arte",
+    "categorias": ["Arte"]
+  },
+  {
+    "titulo": "Literatura y tecnología: El auge de los audiolibros y e-books",
+    "categorias": ["Literatura"]
+  },
+  {
+    "titulo": "Viajar y aprender: Turismo educativo y cultural",
+    "categorias": ["Viajes", "Educación"]
+  },
+  {
+    "titulo": "La música como herramienta terapéutica: Armonía para la salud",
+    "categorias": ["Música", "Salud"]
+  },
+  {
+    "titulo": "Política y sociedad: Debates contemporáneos y participación ciudadana",
+    "categorias": ["Política", "Sociedad"]
+  },
+  {
+    "titulo": "Viajes de aventura y naturaleza: Explorando lo inexplorado",
+    "categorias": ["Viajes", "Naturaleza"]
+  },
+  {
+    "titulo": "El arte de viajar: Fotografía, cultura y experiencias inolvidables",
+    "categorias": ["Viajes", "Arte", "Fotografía"]
+  },
+  {
+    "titulo": "El impacto del cambio climático en los ecosistemas",
+    "categorias": ["Medioambiente"]
+  },
+  {
+    "titulo": "Grandes momentos de la historia del deporte",
+    "categorias": ["Historia"]
+  },
+  {
+    "titulo": "Geografía y sus paisajes: Descubriendo la diversidad de nuestro planeta",
+    "categorias": ["Geografía"]
+  },
+  {
+    "titulo": "Medioambiente y tecnología: Soluciones innovadoras para un futuro sostenible",
+    "categorias": ["Medioambiente", "Tecnología"]
+  },
+  {
+    "titulo": "La ciencia detrás de los récords deportivos",
+    "categorias": ["Deportes", "Ciencia"]
+  },
+  {
+    "titulo": "Historia y geografía: Entendiendo el pasado a través del espacio",
+    "categorias": ["Historia", "Geografía"]
+  },
+  {
+    "titulo": "El planeta en juego: Medioambiente, historia y geografía en la crisis climática",
+    "categorias": ["Medioambiente", "Historia", "Geografía"]
+  },
+  {
+    "titulo": "El universo en tus manos: Avances en astronomía y exploración espacial",
+    "categorias": ["Espacio"]
+  },
+  {
+    "titulo": "Filosofía para la vida cotidiana: Reflexiones sobre la existencia",
+    "categorias": ["Filosofía"]
+  },
+  {
+    "titulo": "Psicología del bienestar: Claves para una vida plena",
+    "categorias": ["Psicología"]
+  },
+  {
+    "titulo": "Ciencia y espacio: Nuevas fronteras en la exploración cósmica",
+    "categorias": ["Ciencia", "Espacio"]
+  },
+  {
+    "titulo": "Filosofía y psicología: Un diálogo sobre la mente y el comportamiento",
+    "categorias": ["Filosofía", "Psicología"]
+  },
+  {
+    "titulo": "El clima y su impacto en la salud mental",
+    "categorias": ["Clima", "Psicología"]
+  },
+  {
+    "titulo": "Mente, universo y clima: Perspectivas desde la filosofía, psicología y el espacio",
+    "categorias": ["Filosofía", "Psicología", "Espacio"]
+  },
+  {
+    "titulo": "Derecho y sociedad: La evolución de la justicia social",
+    "categorias": ["Derecho"]
+  },
+  {
+    "titulo": "Comercio global: Desafíos y oportunidades en el mercado actual",
+    "categorias": ["Comercio"]
+  },
+  {
+    "titulo": "La gastronomía como experiencia cultural: Sabores del mundo",
+    "categorias": ["Gastronomía"]
+  },
+  {
+    "titulo": "Derecho en el comercio digital: Regulación y ciberseguridad",
+    "categorias": ["Derecho", "Comercio"]
+  },
+  {
+    "titulo": "Gastronomía y sociedad: La comida como reflejo de la cultura",
+    "categorias": ["Gastronomía", "Sociedad"]
+  },
+  {
+    "titulo": "Comunicación efectiva: Claves para el éxito en cualquier ámbito",
+    "categorias": ["Comunicación"]
+  },
+  {
+    "titulo": "Ingeniería y construcción: Innovaciones para ciudades sostenibles",
+    "categorias": ["Ingeniería", "Construcción"]
+  },
+  {
+    "titulo": "Arquitectura y diseño: Creando espacios que inspiran",
+    "categorias": ["Arquitectura", "Diseño"]
+  },
+  {
+    "titulo": "La comunicación en la era digital: Medios, marketing y redes sociales",
+    "categorias": ["Comunicación", "Medios", "Marketing"]
+  },
+  {
+    "titulo": "Fotografía urbana: Capturando la esencia de la ciudad",
+    "categorias": ["Fotografía"]
+  },
+  {
+    "titulo": "El universo de los juegos: Más allá del entretenimiento",
+    "categorias": ["Juegos"]
+  },
+  {
+    "titulo": "Misterios sin resolver: Casos intrigantes de la historia",
+    "categorias": ["Misterio"]
+  },
+  {
+    "titulo": "Fotografía en la naturaleza: Capturando la belleza salvaje",
+    "categorias": ["Fotografía", "Naturaleza"]
+  },
+  {
+    "titulo": "Juegos y misterio: El auge de los escapes rooms y enigmas interactivos",
+    "categorias": ["Juegos", "Misterio"]
+  },
+  {
+    "titulo": "Fantasía épica: Mundos de magia y aventura",
+    "categorias": ["Fantasía"]
+  },
+  {
+    "titulo": "Ciencia ficción y tecnología: Visiones del futuro",
+    "categorias": ["Ciencia ficción", "Tecnología"]
+  },
+  {
+    "titulo": "Terror psicológico: El miedo que acecha en la mente",
+    "categorias": ["Terror"]
+  },
+  {
+    "titulo": "Fantasía, ciencia ficción y terror: Explorando los límites de la imaginación",
+    "categorias": ["Fantasía", "Ciencia ficción", "Terror"]
+  },
+  {
+    "titulo": "Romance en la literatura: Historias de amor que trascienden el tiempo",
+    "categorias": ["Romance"]
+  },
+  {
+    "titulo": "Negocios y marketing digital: Estrategias para el éxito en línea",
+    "categorias": ["Negocios", "Marketing"]
+  },
+  {
+    "titulo": "Publicidad creativa: Impactando audiencias en la era digital",
+    "categorias": ["Publicidad"]
+  },
+  {
+    "titulo": "Diseño UX/UI: La clave para experiencias digitales exitosas",
+    "categorias": ["Diseño"]
+  },
+  {
+    "titulo": "Medios de comunicación y sociedad: El poder de la información",
+    "categorias": ["Medios", "Sociedad"]
+  },
+  {
+    "titulo": "Gobierno y política: Retos y transformaciones en el siglo XXI",
+    "categorias": ["Gobierno", "Política"]
+  },
+  {
+    "titulo": "Romance, negocios y marketing: Creando conexiones emocionales con tu audiencia",
+    "categorias": ["Romance", "Negocios", "Marketing"]
+  },
+  {
+    "titulo": "Energía renovable: El camino hacia un futuro sostenible",
+    "categorias": ["Energía"]
+  },
+  {
+    "titulo": "Transporte inteligente: Movilidad urbana del mañana",
+    "categorias": ["Transporte"]
+  },
+  {
+    "titulo": "Ingeniería de software: Creando el código del futuro",
+    "categorias": ["Ingeniería de software"]
+  },
+  {
+    "titulo": "Energía y transporte: Desafíos y soluciones para la movilidad sostenible",
+    "categorias": ["Energía", "Transporte"]
+  },
+  {
+    "titulo": "Ingeniería de software y energía: Desarrollando soluciones para la red eléctrica inteligente",
+    "categorias": ["Ingeniería de software", "Energía"]
+  },
+  {
+    "titulo": "Transporte y medioambiente: Reduciendo la huella de carbono",
+    "categorias": ["Transporte", "Medioambiente"]
+  },
+  {
+    "titulo": "La intersección de la energía, el transporte y la ingeniería de software: Modelando el futuro",
+    "categorias": ["Energía", "Transporte", "Ingeniería de software"]
+  },
+  {
+    "titulo": "Biología molecular: El código de la vida y sus aplicaciones",
+    "categorias": ["Biología"]
+  },
+  {
+    "titulo": "Matemáticas en la vida cotidiana: Más allá de los números",
+    "categorias": ["Matemáticas"]
+  },
+  {
+    "titulo": "El poder de los idiomas: Conectando culturas",
+    "categorias": ["Idiomas"]
+  },
+  {
+    "titulo": "Biología y matemáticas: Modelando sistemas complejos",
+    "categorias": ["Biología", "Matemáticas"]
+  },
+  {
+    "titulo": "Idiomas y tecnología: Herramientas para el aprendizaje y la traducción",
+    "categorias": ["Idiomas", "Tecnología"]
+  },
+  {
+    "titulo": "Matemáticas y ciencias de la computación: Fundamentos de la inteligencia artificial",
+    "categorias": ["Matemáticas", "Ingeniería de software"]
+  },
+  
+    {
+      "titulo": "Cocina gourmet y bienestar: Recetas saludables con un toque sofisticado",
+      "categorias": ["Cocina gourmet", "Salud"]
+    },
+    {
+      "titulo": "La ingeniería biomédica: Fusión de biología, tecnología e innovación",
+      "categorias": ["Biología", "Ingeniería", "Tecnología"]
+    },
+    {
+      "titulo": "El arte de contar historias: Literatura, cine y el poder de la narrativa",
+      "categorias": ["Literatura", "Cine", "Comunicación"]
+    },
+    {
+      "titulo": "Moda y arte urbano: Cuando las calles se convierten en pasarelas",
+      "categorias": ["Moda", "Arte"]
+    },
+    {
+      "titulo": "Psicología y literatura: Explorando la mente a través de los personajes",
+      "categorias": ["Psicología", "Literatura"]
+    },
+    {
+      "titulo": "La ética de la inteligencia artificial: Reflexiones desde la filosofía y la tecnología",
+      "categorias": ["Filosofía", "Tecnología"]
+    },
+    {
+      "titulo": "Viajes de lujo y gastronomía: Experiencias culinarias alrededor del mundo",
+      "categorias": ["Viajes", "Gastronomía"]
+    },
+    {
+      "titulo": "Deportes extremos y seguridad: La adrenalina bajo control",
+      "categorias": ["Deportes", "Salud"]
+    },
+    {
+      "titulo": "El impacto de la música en el desarrollo infantil: Más allá del entretenimiento",
+      "categorias": ["Música", "Educación"]
+    },
+    {
+      "titulo": "El futuro del trabajo: Tecnología, automatización y el cambio social",
+      "categorias": ["Tecnología", "Sociedad", "Negocios"]
+    },
+    {
+      "titulo": "Arquitectura sostenible: Diseñando edificaciones respetuosas con el medioambiente",
+      "categorias": ["Arquitectura", "Medioambiente"]
+    },
+    {
+      "titulo": "Fotografía documental y periodismo: Capturando la verdad en imágenes",
+      "categorias": ["Fotografía", "Periodismo"]
+    },
+    {
+      "titulo": "Juegos educativos: Aprender jugando en la era digital",
+      "categorias": ["Juegos", "Educación"]
+    },
+    {
+      "titulo": "Misterios del universo: La búsqueda de vida extraterrestre y el espacio",
+      "categorias": ["Misterio", "Espacio"]
+    },
+    {
+      "titulo": "Fantasía oscura: Explorando los rincones más sombríos de la imaginación",
+      "categorias": ["Fantasía", "Terror"]
+    },
+    {
+      "titulo": "Ciencia ficción y filosofía: Dilemas éticos del futuro",
+      "categorias": ["Ciencia ficción", "Filosofía"]
+    },
+    {
+      "titulo": "El romance en la era digital: Amor en tiempos de redes sociales",
+      "categorias": ["Romance", "Tecnología"]
+    },
+    {
+      "titulo": "Negocios internacionales: Desafíos y oportunidades en un mundo globalizado",
+      "categorias": ["Negocios", "Comercio"]
+    },
+    {
+      "titulo": "Marketing de contenidos: Estrategias para conectar con tu audiencia",
+      "categorias": ["Marketing", "Comunicación"]
+    },
+    {
+      "titulo": "Publicidad y ética: Responsabilidad social en la comunicación de marcas",
+      "categorias": ["Publicidad", "Ética", "Sociedad"]
+    },
+    {
+      "titulo": "Diseño paramétrico y arquitectura computacional: La ingeniería del mañana",
+      "categorias": ["Diseño", "Arquitectura", "Ingeniería"]
+    },
+    {
+      "titulo": "Medios digitales y política: El impacto de las redes en la opinión pública",
+      "categorias": ["Medios", "Política", "Sociedad"]
+    },
+    {
+      "titulo": "Gobierno abierto y transparencia: Hacia una administración pública eficiente",
+      "categorias": ["Gobierno", "Sociedad"]
+    },
+    {
+      "titulo": "Energías renovables y medioambiente: El camino hacia la sostenibilidad",
+      "categorias": ["Energía", "Medioambiente"]
+    },
+    {
+      "titulo": "Transporte del futuro: Vehículos autónomos y ciudades inteligentes",
+      "categorias": ["Transporte", "Tecnología", "Hogar"]
+    },
+    {
+      "titulo": "Ingeniería de software y ciberseguridad: Protegiendo el mundo digital",
+      "categorias": ["Ingeniería de software", "Tecnología"]
+    },
+    {
+      "titulo": "Biología y medicina: Avances en la investigación genética",
+      "categorias": ["Biología", "Salud"]
+    },
+    {
+      "titulo": "Matemáticas en la economía: Modelos predictivos y análisis financiero",
+      "categorias": ["Matemáticas", "Finanzas"]
+    },
+    {
+      "titulo": "Idiomas y viajes: La aventura de comunicarse sin barreras",
+      "categorias": ["Idiomas", "Viajes"]
+    },
+    {
+      "titulo": "Cocina gourmet y arte: La gastronomía como expresión creativa",
+      "categorias": ["Cocina gourmet", "Arte"]
+    },
+    {
+      "titulo": "Animales y medioambiente: La importancia de la conservación de especies",
+      "categorias": ["Animales", "Medioambiente"]
+    },
+    {
+      "titulo": "Plantas medicinales: El poder curativo de la naturaleza",
+      "categorias": ["Plantas", "Salud"]
+    },
+    {
+      "titulo": "Construcción sostenible: Edificios que cuidan el planeta",
+      "categorias": ["Construcción", "Medioambiente"]
+    },
+    {
+      "titulo": "Naturaleza y fotografía: Capturando la esencia de los paisajes",
+      "categorias": ["Naturaleza", "Fotografía"]
+    },
+    {
+      "titulo": "Clima y geografía: Entendiendo los patrones meteorológicos globales",
+      "categorias": ["Clima", "Geografía"]
+    },
+    {
+      "titulo": "Espacio y ciencia ficción: Viajes intergalácticos y futuras colonias",
+      "categorias": ["Espacio", "Ciencia ficción"]
+    },
+    {
+      "titulo": "Filosofía de la ciencia: Reflexiones sobre el conocimiento y la verdad",
+      "categorias": ["Filosofía", "Ciencia"]
+    },
+    {
+      "titulo": "Psicología del consumo: Cómo el marketing influye en nuestras decisiones",
+      "categorias": ["Psicología", "Marketing"]
+    },
+    {
+      "titulo": "Sociología del arte: El impacto social de las expresiones creativas",
+      "categorias": ["Sociología", "Arte"]
+    },
+    {
+      "titulo": "Derecho laboral y teletrabajo: Adaptando las leyes al nuevo entorno",
+      "categorias": ["Derecho", "Tecnología"]
+    },
+    {
+      "titulo": "Comercio electrónico y ciberseguridad: Protegiendo tu negocio online",
+      "categorias": ["Comercio", "Tecnología"]
+    },
+    {
+      "titulo": "Gastronomía y turismo: Sabores que te llevan de viaje",
+      "categorias": ["Gastronomía", "Viajes"]
+    },
+    {
+      "titulo": "Comunicación política: La persuasión en el ámbito público",
+      "categorias": ["Comunicación", "Política"]
+    },
+    {
+      "titulo": "Ingeniería y transporte: Diseñando la infraestructura del futuro",
+      "categorias": ["Ingeniería", "Transporte"]
+    },
+    {
+      "titulo": "Arquitectura del paisaje: Integrando el diseño con la naturaleza",
+      "categorias": ["Arquitectura", "Naturaleza"]
+    },
+    {
+      "titulo": "Fotografía de moda: Capturando el estilo y la tendencia",
+      "categorias": ["Fotografía", "Moda"]
+    },
+    {
+      "titulo": "Juegos de rol y fantasía: Creando mundos épicos e inmersivos",
+      "categorias": ["Juegos", "Fantasía"]
+    },
+    {
+      "titulo": "Misterio y terror: Historias que te mantendrán en vilo",
+      "categorias": ["Misterio", "Terror"]
+    },
+    {
+      "titulo": "Ciencia ficción y robótica: El futuro de la interacción humano-máquina",
+      "categorias": ["Ciencia ficción", "Tecnología"]
+    },
+    {
+      "titulo": "Romance y psicología: Las complejidades de las relaciones humanas",
+      "categorias": ["Romance", "Psicología"]
+    },
+    {
+      "titulo": "Negocios y finanzas personales: Estrategias para el crecimiento y la estabilidad",
+      "categorias": ["Negocios", "Finanzas"]
+    },
+    {
+      "titulo": "Marketing y diseño gráfico: Creando marcas visualmente atractivas",
+      "categorias": ["Marketing", "Diseño"]
+    },
+    {
+      "titulo": "Publicidad digital: El arte de llegar a tu audiencia en línea",
+      "categorias": ["Publicidad", "Tecnología"]
+    },
+    {
+      "titulo": "Diseño de interiores y hogar: Transformando espacios para el bienestar",
+      "categorias": ["Diseño", "Hogar"]
+    },
+    {
+      "titulo": "Medios y entretenimiento: La evolución del consumo de contenido",
+      "categorias": ["Medios", "Entretenimiento"]
+    },
+    {
+      "titulo": "Sociedad y medioambiente: Desafíos y soluciones para un futuro sostenible",
+      "categorias": ["Sociedad", "Medioambiente"]
+    },
+    {
+      "titulo": "Gobierno y tecnología: E-gobierno y servicios digitales para ciudadanos",
+      "categorias": ["Gobierno", "Tecnología"]
+    },
+    {
+      "titulo": "Energía nuclear: Controversias y avances tecnológicos",
+      "categorias": ["Energía", "Tecnología"]
+    },
+    {
+      "titulo": "Transporte marítimo: Comercio global y logística internacional",
+      "categorias": ["Transporte", "Comercio"]
+    },
+    {
+      "titulo": "Ingeniería de software y matemáticas: Los fundamentos algorítmicos del desarrollo",
+      "categorias": ["Ingeniería de software", "Matemáticas"]
+    },
+    {
+      "titulo": "Biología y botánica: El fascinante mundo de las plantas",
+      "categorias": ["Biología", "Plantas"]
+    },
+    {
+      "titulo": "Matemáticas y física: Los pilares del universo",
+      "categorias": ["Matemáticas", "Ciencia"]
+    },
+    {
+      "titulo": "Idiomas y literatura: La riqueza de la expresión escrita",
+      "categorias": ["Idiomas", "Literatura"]
+    },
+    {
+      "titulo": "Cocina gourmet y nutrición: Sabores exquisitos y salud óptima",
+      "categorias": ["Cocina gourmet", "Alimentación", "Salud"]
+    },
+    {
+      "titulo": "Animales de compañía y bienestar: Cuidando a nuestros fieles amigos",
+      "categorias": ["Animales", "Salud", "Hogar"]
+    },
+    {
+      "titulo": "Plantas de interior y diseño de espacios: Creando ambientes verdes en casa",
+      "categorias": ["Plantas", "Diseño", "Hogar"]
+    },
+    {
+      "titulo": "Construcción inteligente y domótica: El hogar del futuro",
+      "categorias": ["Construcción", "Hogar", "Tecnología"]
+    },
+    {
+      "titulo": "Naturaleza, aventura y viajes: Explorando los paisajes más impresionantes",
+      "categorias": ["Naturaleza", "Viajes", "Deportes"]
+    },
+    {
+      "titulo": "Clima y cambio global: El impacto en la geografía y los ecosistemas",
+      "categorias": ["Clima", "Geografía", "Medioambiente"]
+    },
+    {
+      "titulo": "Espacio, astronomía y ciencia: Descubriendo los secretos del cosmos",
+      "categorias": ["Espacio", "Ciencia"]
+    },
+    {
+      "titulo": "Filosofía, arte y existencia: La búsqueda de significado a través de la creatividad",
+      "categorias": ["Filosofía", "Arte"]
+    },
+    {
+      "titulo": "Psicología y educación: Entendiendo el aprendizaje y el desarrollo",
+      "categorias": ["Psicología", "Educación"]
+    },
+    {
+      "titulo": "Sociología del deporte: El impacto social de la actividad física",
+      "categorias": ["Sociología", "Deportes"]
+    },
+    {
+      "titulo": "Derecho internacional y política global: Las leyes que rigen las naciones",
+      "categorias": ["Derecho", "Política"]
+    },
+    {
+      "titulo": "Comercio justo y ética empresarial: Construyendo un mercado más equitativo",
+      "categorias": ["Comercio", "Ética", "Negocios"]
+    },
+    {
+      "titulo": "Gastronomía, cultura y sociedad: Un festín para los sentidos y el alma",
+      "categorias": ["Gastronomía", "Cultura", "Sociedad"]
+    },
+    {
+      "titulo": "Comunicación no verbal: El poder de los gestos y expresiones",
+      "categorias": ["Comunicación", "Psicología"]
+    },
+    {
+      "titulo": "Ingeniería, matemáticas y ciencia: Los pilares de la innovación tecnológica",
+      "categorias": ["Ingeniería", "Matemáticas", "Ciencia"]
+    },
+    
+        {
+          "titulo": "Arquitectura y urbanismo: Diseñando ciudades para el futuro",
+          "categorias": ["Arquitectura", "Sociedad"]
+        },
+        {
+          "titulo": "Fotografía y diseño: Creando imágenes con impacto visual",
+          "categorias": ["Fotografía", "Diseño"]
+        },
+        {
+          "titulo": "Juegos, fantasía y ciencia ficción: Mundos alternativos para explorar",
+          "categorias": ["Juegos", "Fantasía", "Ciencia ficción"]
+        },
+        {
+          "titulo": "Misterio, terror y suspense: Narrativas que te mantienen al borde del asiento",
+          "categorias": ["Misterio", "Terror", "Literatura"]
+        },
+        {
+          "titulo": "Romance y entretenimiento: El encanto de las historias de amor en pantalla",
+          "categorias": ["Romance", "Entretenimiento"]
+        },
+        {
+          "titulo": "Negocios, finanzas y tecnología: La transformación digital de las empresas",
+          "categorias": ["Negocios", "Finanzas", "Tecnología"]
+        },
+        {
+          "titulo": "Marketing, publicidad y medios: Estrategias integrales para la comunicación de marca",
+          "categorias": ["Marketing", "Publicidad", "Medios"]
+        },
+        {
+          "titulo": "Diseño, arte y creatividad: La expresión visual en todas sus formas",
+          "categorias": ["Diseño", "Arte"]
+        },
+        {
+          "titulo": "Medios, política y sociedad: El papel de la prensa en la democracia",
+          "categorias": ["Medios", "Política", "Sociedad"]
+        },
+        {
+          "titulo": "Gobierno, derecho y justicia: El sistema legal en una sociedad democrática",
+          "categorias": ["Gobierno", "Derecho", "Sociedad"]
+        },
+        {
+          "titulo": "Energía, medioambiente y política: Desafíos y soluciones globales",
+          "categorias": ["Energía", "Medioambiente", "Política"]
+        },
+        {
+          "titulo": "Transporte, ingeniería y logística: La optimización de la cadena de suministro",
+          "categorias": ["Transporte", "Ingeniería", "Comercio"]
+        },
+        {
+          "titulo": "Ingeniería de software, inteligencia artificial y machine learning: El futuro del desarrollo",
+          "categorias": ["Ingeniería de software", "Tecnología"]
+        },
+        {
+          "titulo": "Biología, genética y salud: Los avances en medicina personalizada",
+          "categorias": ["Biología", "Salud"]
+        },
+        {
+          "titulo": "Matemáticas, ciencia y educación: Fomentando el pensamiento crítico desde temprana edad",
+          "categorias": ["Matemáticas", "Ciencia", "Educación"]
+        },
+        {
+          "titulo": "Idiomas, cultura y viajes: Una inmersión en la diversidad global",
+          "categorias": ["Idiomas", "Viajes"]
+        },
+        {
+          "titulo": "Cocina gourmet, alimentación y salud: La ciencia detrás de los sabores saludables",
+          "categorias": ["Cocina gourmet", "Alimentación", "Salud"]
+        },
+        {
+          "titulo": "Vehículos autónomos: La revolución en el transporte y la seguridad vial",
+          "categorias": ["Vehículos", "Tecnología", "Transporte"]
+        },
+        {
+          "titulo": "Tecnología en la salud: Wearables y dispositivos médicos conectados",
+          "categorias": ["Tecnología", "Salud"]
+        },
+        {
+          "titulo": "Salud mental y bienestar: Estrategias para una vida equilibrada",
+          "categorias": ["Salud", "Psicología"]
+        },
+        {
+          "titulo": "Finanzas personales: Consejos para ahorrar e invertir con inteligencia",
+          "categorias": ["Finanzas", "Hogar"]
+        },
+        {
+          "titulo": "Educación a distancia: El impacto de las plataformas online en el aprendizaje",
+          "categorias": ["Educación", "Tecnología"]
+        },
+        {
+          "titulo": "Alimentación consciente: Nutrición y bienestar en el día a día",
+          "categorias": ["Alimentación", "Salud"]
+        },
+        {
+          "titulo": "Moda y diseño: Tendencias y creatividad en la industria textil",
+          "categorias": ["Moda", "Diseño"]
+        },
+        {
+          "titulo": "Entretenimiento en la era digital: Streaming, gaming y redes sociales",
+          "categorias": ["Entretenimiento", "Tecnología"]
+        },
+        {
+          "titulo": "Hogar inteligente: Conectividad y automatización para una vida más cómoda",
+          "categorias": ["Hogar", "Tecnología"]
+        },
+        {
+          "titulo": "Viajes de aventura: Explorando destinos exóticos y desafiantes",
+          "categorias": ["Viajes", "Deportes"]
+        },
+        {
+          "titulo": "Deportes y salud: El ejercicio como pilar fundamental del bienestar",
+          "categorias": ["Deportes", "Salud"]
+        },
+        {
+          "titulo": "Arte y cultura: Exposiciones, museos y el legado creativo de la humanidad",
+          "categorias": ["Arte", "Historia"]
+        },
+        {
+          "titulo": "Literatura fantástica: Mundos de magia y héroes legendarios",
+          "categorias": ["Literatura", "Fantasía"]
+        },
+        {
+          "titulo": "Música y tecnología: La evolución de la producción musical",
+          "categorias": ["Música", "Tecnología"]
+        },
+        {
+          "titulo": "Política y economía: Las decisiones que moldean el futuro de las naciones",
+          "categorias": ["Política", "Finanzas"]
+        },
+        {
+          "titulo": "Medioambiente y sostenibilidad: Acciones para proteger nuestro planeta",
+          "categorias": ["Medioambiente", "Sociedad"]
+        },
+        {
+          "titulo": "Historia del arte: Grandes movimientos y artistas que marcaron épocas",
+          "categorias": ["Historia", "Arte"]
+        },
+        {
+          "titulo": "Geografía y turismo: Descubriendo los paisajes más impresionantes del mundo",
+          "categorias": ["Geografía", "Viajes"]
+        },
+        {
+          "titulo": "Ciencia y tecnología: Descubrimientos que transforman nuestro mundo",
+          "categorias": ["Ciencia", "Tecnología"]
+        },
+        {
+          "titulo": "Cocina internacional: Un viaje culinario por el mundo",
+          "categorias": ["Cocina", "Viajes"]
+        },
+        {
+          "titulo": "Animales y comportamiento: El fascinante mundo de la etología",
+          "categorias": ["Animales", "Biología"]
+        },
+        {
+          "titulo": "Plantas y jardinería: Creando tu propio oasis verde en casa",
+          "categorias": ["Plantas", "Hogar"]
+        },
+        {
+          "titulo": "Construcción y arquitectura: La creación de espacios habitables",
+          "categorias": ["Construcción", "Arquitectura"]
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        {
+          "titulo": "Naturaleza y conservación: Protegiendo la biodiversidad del planeta",
+          "categorias": ["Naturaleza", "Medioambiente"]
+        },
+        {
+          "titulo": "Clima extremo: Fenómenos meteorológicos y su impacto global",
+          "categorias": ["Clima", "Medioambiente"]
+        },
+        {
+          "titulo": "Espacio y exploración: Las misiones que nos acercan al cosmos",
+          "categorias": ["Espacio", "Ciencia"]
+        },
+        {
+          "titulo": "Filosofía y ética: Reflexiones sobre el bien y el mal en la sociedad actual",
+          "categorias": ["Filosofía", "Sociedad"]
+        },
+        {
+          "titulo": "Psicología y neurociencia: Entendiendo el cerebro humano",
+          "categorias": ["Psicología", "Biología"]
+        },
+        {
+          "titulo": "Sociología y política: El estudio de las estructuras de poder",
+          "categorias": ["Sociología", "Política"]
+        },
+        {
+          "titulo": "Derecho y justicia penal: El sistema legal frente al crimen",
+          "categorias": ["Derecho", "Misterio"]
+        },
+        {
+          "titulo": "Comercio internacional: Dinámicas y desafíos del mercado global",
+          "categorias": ["Comercio", "Finanzas"]
+        },
+        {
+          "titulo": "Gastronomía y salud: La importancia de una dieta equilibrada",
+          "categorias": ["Gastronomía", "Salud"]
+        },
+        {
+          "titulo": "Comunicación digital: Estrategias para la era de internet",
+          "categorias": ["Comunicación", "Marketing"]
+        },
+        {
+          "titulo": "Ingeniería civil y transporte: La infraestructura que mueve el mundo",
+          "categorias": ["Ingeniería", "Transporte"]
+        },
+        {
+          "titulo": "Arquitectura moderna: Innovación y diseño en el siglo XXI",
+          "categorias": ["Arquitectura", "Diseño"]
+        },
+        {
+          "titulo": "Fotografía nocturna: Capturando la magia de la oscuridad",
+          "categorias": ["Fotografía", "Arte"]
+        },
+        {
+          "titulo": "Juegos de mesa y estrategia: Diversión para todas las edades",
+          "categorias": ["Juegos", "Entretenimiento"]
+        },
+        {
+          "titulo": "Misterios históricos: Enigmas del pasado sin resolver",
+          "categorias": ["Misterio", "Historia"]
+        },
+        {
+          "titulo": "Fantasía oscura y literatura: Mundos góticos y criaturas de la noche",
+          "categorias": ["Fantasía", "Literatura", "Terror"]
+        },
+        {
+          "titulo": "Ciencia ficción y robótica: El impacto de la IA en el futuro humano",
+          "categorias": ["Ciencia ficción", "Tecnología"]
+        },
+        {
+          "titulo": "Terror y psicología: Los miedos más profundos de la mente humana",
+          "categorias": ["Terror", "Psicología"]
+        },
+        {
+          "titulo": "Romance y psicología: Las complejidades del amor y las relaciones",
+          "categorias": ["Romance", "Psicología"]
+        },
+        {
+          "titulo": "Negocios y emprendimiento: Claves para lanzar tu startup con éxito",
+          "categorias": ["Negocios", "Finanzas"]
+        },
+        {
+          "titulo": "Marketing digital y redes sociales: El nuevo campo de batalla de las marcas",
+          "categorias": ["Marketing", "Comunicación", "Tecnología"]
+        },
+        {
+          "titulo": "Publicidad y psicología del consumidor: Influenciando decisiones de compra",
+          "categorias": ["Publicidad", "Psicología", "Comercio"]
+        },
+        {
+          "titulo": "Diseño de productos: Desde la idea hasta el mercado",
+          "categorias": ["Diseño", "Comercio"]
+        },
+        {
+          "titulo": "Medios de comunicación y fake news: El desafío de la desinformación",
+          "categorias": ["Medios", "Sociedad", "Comunicación"]
+        },
+        {
+          "titulo": "Sociedad y tecnología: El impacto de la era digital en nuestras vidas",
+          "categorias": ["Sociedad", "Tecnología"]
+        },
+        {
+          "titulo": "Gobierno y derecho internacional: Las relaciones entre naciones",
+          "categorias": ["Gobierno", "Derecho"]
+        },
+        {
+          "titulo": "Energía solar y autoconsumo: La revolución energética en el hogar",
+          "categorias": ["Energía", "Hogar"]
+        },
+        {
+          "titulo": "Transporte público y sostenibilidad: Ciudades más verdes y eficientes",
+          "categorias": ["Transporte", "Medioambiente"]
+        },
+        {
+          "titulo": "Ingeniería de software y ciberseguridad: Protegiendo tus datos en la nube",
+          "categorias": ["Ingeniería de software", "Tecnología"]
+        },
+        {
+          "titulo": "Biología marina: El fascinante mundo de los océanos",
+          "categorias": ["Biología", "Naturaleza"]
+        },
+        {
+          "titulo": "Matemáticas aplicadas a la economía: Modelos financieros y predicciones",
+          "categorias": ["Matemáticas", "Finanzas"]
+        },
+        {
+          "titulo": "Idiomas y tecnología: Traductores automáticos y aprendizaje asistido",
+          "categorias": ["Idiomas", "Tecnología"]
+        },
+        {
+          "titulo": "Cocina gourmet y arte culinario: Creando obras maestras comestibles",
+          "categorias": ["Cocina gourmet", "Arte"]
+        },
+        {
+          "titulo": "Animales en peligro de extinción: La urgencia de la conservación",
+          "categorias": ["Animales", "Medioambiente"]
+        },
+        {
+          "titulo": "Plantas exóticas y botánica: Descubriendo la diversidad vegetal",
+          "categorias": ["Plantas", "Biología"]
+        },
+        {
+          "titulo": "Construcción sostenible y diseño biofílico: Edificios en armonía con la naturaleza",
+          "categorias": ["Construcción", "Diseño", "Naturaleza"]
+        },
+        
+            {
+              "titulo": "Naturaleza y clima extremo: Sobreviviendo a los fenómenos naturales",
+              "categorias": ["Naturaleza", "Clima", "Salud"]
+            },
+            {
+              "titulo": "Clima y energías renovables: El futuro sostenible de nuestro planeta",
+              "categorias": ["Clima", "Energía", "Medioambiente"]
+            },
+            {
+              "titulo": "Espacio y universo: Más allá de las fronteras de nuestro sistema solar",
+              "categorias": ["Espacio", "Ciencia"]
+            },
+            {
+              "titulo": "Filosofía y conciencia: Explorando la naturaleza de la mente humana",
+              "categorias": ["Filosofía", "Psicología"]
+            },
+            {
+              "titulo": "Psicología y salud: Abordando los trastornos mentales en la sociedad actual",
+              "categorias": ["Psicología", "Salud"]
+            },
+            {
+              "titulo": "Sociología y política: El impacto de los movimientos sociales en la democracia",
+              "categorias": ["Sociología", "Política"]
+            },
+            {
+              "titulo": "Derecho y justicia: Los desafíos del sistema legal en la era digital",
+              "categorias": ["Derecho", "Tecnología"]
+            },
+            {
+              "titulo": "Comercio electrónico y marketing digital: Claves para el éxito en ventas online",
+              "categorias": ["Comercio", "Marketing", "Tecnología"]
+            },
+            {
+              "titulo": "Gastronomía y turismo: Sabores locales que conquistan el mundo",
+              "categorias": ["Gastronomía", "Viajes"]
+            },
+            {
+              "titulo": "Comunicación corporativa: Estrategias para una imagen de marca sólida",
+              "categorias": ["Comunicación", "Negocios"]
+            },
+            {
+              "titulo": "Ingeniería, tecnología y robótica: La automatización en la industria",
+              "categorias": ["Ingeniería", "Tecnología"]
+            },
+            {
+              "titulo": "Arquitectura y sostenibilidad: Edificaciones que respetan el entorno natural",
+              "categorias": ["Arquitectura", "Medioambiente"]
+            },
+            {
+              "titulo": "Fotografía y naturaleza: Capturando la belleza de paisajes y vida salvaje",
+              "categorias": ["Fotografía", "Naturaleza"]
+            },
+            {
+              "titulo": "Juegos de rol y aventura: Mundos inmersivos y narrativas épicas",
+              "categorias": ["Juegos", "Fantasía"]
+            },
+            {
+              "titulo": "Misterio y ciencia forense: Desentrañando crímenes a través de la evidencia",
+              "categorias": ["Misterio", "Ciencia"]
+            },
+            {
+              "titulo": "Fantasía épica y literatura: La construcción de universos imaginarios",
+              "categorias": ["Fantasía", "Literatura"]
+            },
+            {
+              "titulo": "Ciencia ficción y sociedad: Reflexiones sobre el futuro de la humanidad",
+              "categorias": ["Ciencia ficción", "Sociedad"]
+            },
+            {
+              "titulo": "Terror en el cine: La psicología del miedo en la gran pantalla",
+              "categorias": ["Terror", "Entretenimiento", "Psicología"]
+            },
+            {
+              "titulo": "Romance y bienestar emocional: Construyendo relaciones saludables",
+              "categorias": ["Romance", "Salud", "Psicología"]
+            },
+            {
+              "titulo": "Negocios y finanzas: Estrategias para el crecimiento empresarial",
+              "categorias": ["Negocios", "Finanzas"]
+            },
+            {
+              "titulo": "Marketing de contenidos y SEO: Posicionando tu marca en buscadores",
+              "categorias": ["Marketing", "Tecnología"]
+            },
+            {
+              "titulo": "Publicidad y creatividad: Campañas que marcan la diferencia",
+              "categorias": ["Publicidad", "Diseño"]
+            },
+            {
+              "titulo": "Diseño gráfico y comunicación visual: El poder de la imagen",
+              "categorias": ["Diseño", "Comunicación"]
+            },
+            {
+              "titulo": "Medios y periodismo digital: La transformación de la información",
+              "categorias": ["Medios", "Tecnología"]
+            },
+            {
+              "titulo": "Sociedad y cultura: Diversidad y costumbres en el mundo actual",
+              "categorias": ["Sociedad", "Historia"]
+            },
+            {
+              "titulo": "Gobierno y políticas públicas: La toma de decisiones para el bien común",
+              "categorias": ["Gobierno", "Política"]
+            },
+            {
+              "titulo": "Energía renovable y transporte eléctrico: La movilidad del futuro",
+              "categorias": ["Energía", "Transporte"]
+            },
+            {
+              "titulo": "Transporte y urbanismo: Diseñando ciudades más eficientes",
+              "categorias": ["Transporte", "Arquitectura"]
+            },
+            {
+              "titulo": "Ingeniería de software y desarrollo web: Creando aplicaciones escalables",
+              "categorias": ["Ingeniería de software", "Tecnología"]
+            },
+            {
+              "titulo": "Biología y medioambiente: La interconexión de los ecosistemas",
+              "categorias": ["Biología", "Medioambiente"]
+            },
+            {
+              "titulo": "Matemáticas y ciencia de datos: Análisis predictivo en la era del Big Data",
+              "categorias": ["Matemáticas", "Tecnología"]
+            },
+            {
+              "titulo": "Idiomas y globalización: La importancia de la comunicación intercultural",
+              "categorias": ["Idiomas", "Sociedad"]
+            },
+            {
+              "titulo": "Cocina gourmet y salud: Tendencias culinarias para una vida saludable",
+              "categorias": ["Cocina gourmet", "Salud"]
+            },
+            {
+              "titulo": "Vehículos y medioambiente: El impacto de la huella de carbono automotriz",
+              "categorias": ["Vehículos", "Medioambiente"]
+            },
+            {
+              "titulo": "Tecnología y sociedad: La transformación digital de nuestras vidas",
+              "categorias": ["Tecnología", "Sociedad"]
+            },
+            {
+              "titulo": "Salud y bienestar: Enfoques holísticos para una vida plena",
+              "categorias": ["Salud", "Psicología"]
+            },
+            {
+              "titulo": "Finanzas y educación financiera: Herramientas para la libertad económica",
+              "categorias": ["Finanzas", "Educación"]
+            },
+            {
+              "titulo": "Educación y tecnología: El aula del futuro y el aprendizaje personalizado",
+              "categorias": ["Educación", "Tecnología"]
+            },
+            {
+              "titulo": "Alimentación y salud: Dietas equilibradas para una vida activa",
+              "categorias": ["Alimentación", "Salud"]
+            },
+            {
+              "titulo": "Moda y cultura: La vestimenta como expresión de identidad",
+              "categorias": ["Moda", "Sociedad"]
+            },
+            {
+              "titulo": "Entretenimiento y tecnología: La evolución del ocio digital",
+              "categorias": ["Entretenimiento", "Tecnología"]
+            },
+            {
+              "titulo": "Hogar y eficiencia energética: Construyendo casas sostenibles",
+              "categorias": ["Hogar", "Energía", "Construcción"]
+            },
+            {
+              "titulo": "Viajes y aventura: Descubriendo nuevos horizontes y culturas",
+              "categorias": ["Viajes", "Deportes"]
+            },
+            {
+              "titulo": "Deportes y nutrición: La importancia de una dieta para el rendimiento atlético",
+              "categorias": ["Deportes", "Alimentación"]
+            },
+            {
+              "titulo": "Arte y filosofía: La belleza y el significado en la expresión artística",
+              "categorias": ["Arte", "Filosofía"]
+            },
+            {
+              "titulo": "Literatura y misterio: Historias que desafían la mente del lector",
+              "categorias": ["Literatura", "Misterio"]
+            },
+            {
+              "titulo": "Música y bienestar: Los beneficios terapéuticos de la melodía",
+              "categorias": ["Música", "Salud"]
+            },
+            {
+              "titulo": "Política y sociedad: La participación ciudadana en la toma de decisiones",
+              "categorias": ["Política", "Sociedad"]
+            },
+            {
+              "titulo": "Medioambiente y ciencias: El estudio de los ecosistemas y la biodiversidad",
+              "categorias": ["Medioambiente", "Ciencia"]
+            },
+            {
+              "titulo": "Historia y arqueología: Desenterrando los secretos del pasado",
+              "categorias": ["Historia", "Ciencia"]
+            },
+            {
+              "titulo": "Geografía y clima: La influencia del entorno en la vida humana",
+              "categorias": ["Geografía", "Clima"]
+            },
+            {
+              "titulo": "Ciencia y espacio: Los grandes descubrimientos astronómicos",
+              "categorias": ["Ciencia", "Espacio"]
+            },
+            {
+              "titulo": "Cocina y alimentación saludable: Recetas prácticas para el día a día",
+              "categorias": ["Cocina", "Alimentación"]
+            },
+            {
+              "titulo": "Animales y comportamiento: La inteligencia y emociones en el reino animal",
+              "categorias": ["Animales", "Psicología"]
+            },
+            {
+              "titulo": "Plantas y medicina natural: Remedios ancestrales y botánica medicinal",
+              "categorias": ["Plantas", "Salud"]
+            },
+            {
+              "titulo": "Construcción y diseño de interiores: Creando espacios funcionales y estéticos",
+              "categorias": ["Construcción", "Diseño", "Hogar"]
+            },
+            {
+              "titulo": "Naturaleza y geografía: La diversidad de los paisajes terrestres",
+              "categorias": ["Naturaleza", "Geografía"]
+            },
+            {
+              "titulo": "Clima y medioambiente: El impacto del calentamiento global en la vida marina",
+              "categorias": ["Clima", "Medioambiente", "Biología"]
+            },
+            {
+              "titulo": "Espacio y fantasía: Las sagas que nos transportan a galaxias lejanas",
+              "categorias": ["Espacio", "Fantasía", "Literatura"]
+            },
+            {
+              "titulo": "Filosofía y derecho: La justicia y la moral en el sistema legal",
+              "categorias": ["Filosofía", "Derecho"]
+            },
+            {
+              "titulo": "Psicología y comunicación: Entendiendo la interacción humana",
+              "categorias": ["Psicología", "Comunicación"]
+            },
+            {
+              "titulo": "Sociología y educación: El papel de las instituciones en la formación de individuos",
+              "categorias": ["Sociología", "Educación"]
+            },
+            {
+              "titulo": "Derecho y política: La creación y aplicación de las leyes",
+              "categorias": ["Derecho", "Política"]
+            },
+            {
+              "titulo": "Comercio, negocios y finanzas: Estrategias para la expansión global",
+              "categorias": ["Comercio", "Negocios", "Finanzas"]
+            },
+            {
+              "titulo": "Gastronomía, arte y cultura: La experiencia culinaria como expresión creativa",
+              "categorias": ["Gastronomía", "Arte", "Sociedad"]
+            },
+            {
+              "titulo": "Comunicación estratégica: Planificando mensajes para el impacto",
+              "categorias": ["Comunicación", "Marketing"]
+            },
+            {
+              "titulo": "Ingeniería industrial y eficiencia: Optimización de procesos productivos",
+              "categorias": ["Ingeniería", "Negocios"]
+            },
+            {
+              "titulo": "Arquitectura moderna y tecnología: Diseñando el futuro de los edificios",
+              "categorias": ["Arquitectura", "Tecnología"]
+            },
+            {
+              "titulo": "Fotografía, arte y diseño: La composición visual en la imagen",
+              "categorias": ["Fotografía", "Arte", "Diseño"]
+            },
+            {
+              "titulo": "Juegos, tecnología y entretenimiento: La evolución de la industria del gaming",
+              "categorias": ["Juegos", "Tecnología", "Entretenimiento"]
+            },
+            {
+              "titulo": "Misterio y psicología criminal: La mente detrás del crimen",
+              "categorias": ["Misterio", "Psicología"]
+            },
+            {
+              "titulo": "Fantasía, mitología y literatura: Orígenes de los mundos mágicos",
+              "categorias": ["Fantasía", "Literatura", "Historia"]
+            },
+            {
+              "titulo": "Ciencia ficción y viajes en el tiempo: Paradojas y posibilidades",
+              "categorias": ["Ciencia ficción", "Física", "Filosofía"]
+            },
+            {
+              "titulo": "Terror gótico y literatura: Ambientes oscuros y relatos escalofriantes",
+              "categorias": ["Terror", "Literatura"]
+            },
+            {
+              "titulo": "Romance histórico: Amores que desafiaron el tiempo y la sociedad",
+              "categorias": ["Romance", "Historia"]
+            },
+            
+                {
+                  "titulo": "Negocios y ética: La responsabilidad social corporativa en la práctica",
+                  "categorias": ["Negocios", "Filosofía", "Sociedad"]
+                },
+                {
+                  "titulo": "Marketing de guerrilla: Estrategias creativas para campañas de bajo presupuesto",
+                  "categorias": ["Marketing", "Publicidad"]
+                },
+                {
+                  "titulo": "Publicidad online y privacidad: El desafío de la personalización y los datos",
+                  "categorias": ["Publicidad", "Tecnología", "Derecho"]
+                },
+                {
+                  "titulo": "Diseño de experiencia de usuario (UX): Creando productos digitales intuitivos",
+                  "categorias": ["Diseño", "Tecnología"]
+                },
+                {
+                  "titulo": "Medios de comunicación y el futuro del periodismo: Tendencias y retos",
+                  "categorias": ["Medios", "Comunicación", "Tecnología"]
+                },
+                {
+                  "titulo": "Sociedad y economía: El impacto de la desigualdad en el desarrollo global",
+                  "categorias": ["Sociedad", "Finanzas"]
+                },
+                {
+                  "titulo": "Gobierno electrónico: Transformando la administración pública con tecnología",
+                  "categorias": ["Gobierno", "Tecnología"]
+                },
+                {
+                  "titulo": "Energía geotérmica: Aprovechando el calor de la tierra para generar electricidad",
+                  "categorias": ["Energía", "Medioambiente"]
+                },
+                {
+                  "titulo": "Transporte aéreo y logística: La eficiencia en el movimiento de mercancías",
+                  "categorias": ["Transporte", "Comercio", "Ingeniería"]
+                },
+                {
+                  "titulo": "Ingeniería de software y ciberseguridad: Desarrollando sistemas robustos y seguros",
+                  "categorias": ["Ingeniería de software", "Tecnología"]
+                },
+                {
+                  "titulo": "Biología y evolución: El origen de la vida y la diversidad de especies",
+                  "categorias": ["Biología", "Ciencia", "Historia"]
+                },
+                {
+                  "titulo": "Matemáticas en la vida diaria: Aplicaciones prácticas de los números",
+                  "categorias": ["Matemáticas", "Educación"]
+                },
+                {
+                  "titulo": "Idiomas y bilingüismo: Ventajas cognitivas de aprender varias lenguas",
+                  "categorias": ["Idiomas", "Psicología"]
+                },
+                {
+                  "titulo": "Cocina gourmet internacional: Explorando sabores de todo el mundo",
+                  "categorias": ["Cocina gourmet", "Viajes"]
+                },
+                {
+                  "titulo": "Vehículos eléctricos y el futuro de la movilidad urbana",
+                  "categorias": ["Vehículos", "Transporte", "Tecnología"]
+                },
+                {
+                  "titulo": "Tecnología wearable y monitoreo de la salud: Dispositivos para el bienestar",
+                  "categorias": ["Tecnología", "Salud"]
+                },
+                {
+                  "titulo": "Salud pública y epidemiología: La prevención de enfermedades a gran escala",
+                  "categorias": ["Salud", "Ciencia", "Sociedad"]
+                },
+                {
+                  "titulo": "Finanzas y blockchain: La revolución de las criptomonedas y las inversiones descentralizadas",
+                  "categorias": ["Finanzas", "Tecnología"]
+                },
+                {
+                  "titulo": "Educación online y el futuro del aprendizaje: Flexibilidad y accesibilidad",
+                  "categorias": ["Educación", "Tecnología"]
+                },
+                {
+                  "titulo": "Alimentación sostenible: Consumo consciente y producción responsable",
+                  "categorias": ["Alimentación", "Medioambiente"]
+                },
+                {
+                  "titulo": "Moda ética y comercio justo: Un enfoque responsable en la industria textil",
+                  "categorias": ["Moda", "Comercio", "Sociedad"]
+                },
+                {
+                  "titulo": "Entretenimiento interactivo: El auge de los videojuegos y la realidad virtual",
+                  "categorias": ["Entretenimiento", "Juegos", "Tecnología"]
+                },
+                {
+                  "titulo": "Hogar conectado: Sistemas inteligentes para una vida más cómoda y segura",
+                  "categorias": ["Hogar", "Tecnología"]
+                },
+                {
+                  "titulo": "Viajes de aventura y ecoturismo: Explorando la naturaleza de forma responsable",
+                  "categorias": ["Viajes", "Naturaleza", "Medioambiente"]
+                },
+                {
+                  "titulo": "Deportes de alto rendimiento y psicología: La mente del atleta de élite",
+                  "categorias": ["Deportes", "Psicología"]
+                },
+                {
+                  "titulo": "Arte contemporáneo: Nuevas expresiones y tendencias en el siglo XXI",
+                  "categorias": ["Arte", "Cultura"]
+                },
+                {
+                  "titulo": "Literatura y crítica social: Obras que cuestionan el status quo",
+                  "categorias": ["Literatura", "Sociología"]
+                },
+                {
+                  "titulo": "Música y bienestar: Terapias sonoras para la relajación y el equilibrio",
+                  "categorias": ["Música", "Salud"]
+                },
+                {
+                  "titulo": "Política internacional: Geopolítica y relaciones entre naciones",
+                  "categorias": ["Política", "Historia", "Geografía"]
+                },
+                {
+                  "titulo": "Medioambiente urbano: Desafíos y soluciones para ciudades verdes",
+                  "categorias": ["Medioambiente", "Arquitectura", "Sociedad"]
+                },
+                {
+                  "titulo": "Historia del mundo: Grandes civilizaciones y momentos cruciales",
+                  "categorias": ["Historia", "Cultura"]
+                },
+                {
+                  "titulo": "Geografía física: Los procesos que moldean la superficie terrestre",
+                  "categorias": ["Geografía", "Ciencia"]
+                },
+                {
+                  "titulo": "Ciencia de materiales: Innovaciones para el futuro de la ingeniería",
+                  "categorias": ["Ciencia", "Ingeniería"]
+                },
+                {
+                  "titulo": "Cocina saludable y dietas especiales: Opciones deliciosas para todos",
+                  "categorias": ["Cocina", "Alimentación", "Salud"]
+                },
+                {
+                  "titulo": "Animales salvajes y conservación: Protegiendo la biodiversidad global",
+                  "categorias": ["Animales", "Medioambiente"]
+                },
+                {
+                  "titulo": "Plantas ornamentales y paisajismo: Creando jardines de ensueño",
+                  "categorias": ["Plantas", "Diseño", "Hogar"]
+                },
+                {
+                  "titulo": "Construcción inteligente y arquitectura bioclimática: Edificios del futuro",
+                  "categorias": ["Construcción", "Arquitectura", "Energía"]
+                },
+                {
+                  "titulo": "Naturaleza y conservación: La importancia de preservar nuestros ecosistemas",
+                  "categorias": ["Naturaleza", "Medioambiente", "Biología"]
+                },
+                {
+                  "titulo": "Clima extremo y resiliencia: Adaptando nuestras sociedades al cambio",
+                  "categorias": ["Clima", "Sociedad", "Medioambiente"]
+                },
+                {
+                  "titulo": "Espacio y astrofotografía: Capturando la belleza del cosmos",
+                  "categorias": ["Espacio", "Fotografía", "Ciencia"]
+                },
+                {
+                  "titulo": "Filosofía política: Reflexiones sobre el poder y la justicia social",
+                  "categorias": ["Filosofía", "Política"]
+                },
+                {
+                  "titulo": "Psicología del deporte: Mejorando el rendimiento y la salud mental de los atletas",
+                  "categorias": ["Psicología", "Deportes", "Salud"]
+                },
+                {
+                  "titulo": "Sociología de la cultura: El estudio de las costumbres y tradiciones",
+                  "categorias": ["Sociología", "Cultura"]
+                },
+                {
+                  "titulo": "Derecho ambiental: La protección legal de nuestros recursos naturales",
+                  "categorias": ["Derecho", "Medioambiente"]
+                },
+                {
+                  "titulo": "Comercio internacional y globalización: El impacto en las economías locales",
+                  "categorias": ["Comercio", "Finanzas", "Sociedad"]
+                },
+                {
+                  "titulo": "Gastronomía molecular: La ciencia detrás de la cocina de vanguardia",
+                  "categorias": ["Gastronomía", "Ciencia"]
+                },
+                {
+                  "titulo": "Comunicación intercultural: Superando barreras en un mundo globalizado",
+                  "categorias": ["Comunicación", "Idiomas", "Sociedad"]
+                },
+                {
+                  "titulo": "Ingeniería de datos: Big Data y análisis predictivo en la toma de decisiones",
+                  "categorias": ["Ingeniería", "Tecnología", "Negocios"]
+                },
+                {
+                  "titulo": "Arquitectura vernácula: Diseño con identidad local y materiales tradicionales",
+                  "categorias": ["Arquitectura", "Historia", "Cultura"]
+                },
+                {
+                  "titulo": "Fotografía callejera: Capturando la vida urbana en imágenes",
+                  "categorias": ["Fotografía", "Arte", "Sociedad"]
+                },
+                {
+                  "titulo": "Juegos de rol y narrativa: Creando historias inmersivas para jugadores",
+                  "categorias": ["Juegos", "Literatura", "Fantasía"]
+                },
+                {
+                  "titulo": "Misterio y conspiraciones históricas: Teorías que desafían la versión oficial",
+                  "categorias": ["Misterio", "Historia", "Política"]
+                },
+                {
+                  "titulo": "Fantasía oscura y mitología: Explorando las raíces del horror en el folclore",
+                  "categorias": ["Fantasía", "Terror", "Historia"]
+                },
+                {
+                  "titulo": "Ciencia ficción y robótica: El impacto de la inteligencia artificial en el empleo",
+                  "categorias": ["Ciencia ficción", "Tecnología", "Sociedad"]
+                },
+                {
+                  "titulo": "Terror psicológico en el cine: Miedos internos y suspense creciente",
+                  "categorias": ["Terror", "Entretenimiento", "Psicología"]
+                },
+                {
+                  "titulo": "Romance y bienestar: Cultivando relaciones saludables y duraderas",
+                  "categorias": ["Romance", "Salud", "Psicología"]
+                },
+                {
+                  "titulo": "Negocios digitales y e-commerce: Estrategias para vender online con éxito",
+                  "categorias": ["Negocios", "Comercio", "Tecnología"]
+                },
+                {
+                  "titulo": "Marketing de influencia: Colaborando con creadores de contenido para llegar a audiencias",
+                  "categorias": ["Marketing", "Publicidad", "Comunicación"]
+                },
+                {
+                  "titulo": "Publicidad y neuromarketing: Entendiendo la mente del consumidor",
+                  "categorias": ["Publicidad", "Psicología", "Comercio"]
+                },
+                {
+                  "titulo": "Diseño de moda sostenible: Creando ropa con conciencia ambiental",
+                  "categorias": ["Diseño", "Moda", "Medioambiente"]
+                },
+                {
+                  "titulo": "Medios, entretenimiento y tecnología: La convergencia de la información y el ocio",
+                  "categorias": ["Medios", "Entretenimiento", "Tecnología"]
+                },
+                {
+                  "titulo": "Sociedad y medioambiente: El papel de las comunidades en la conservación",
+                  "categorias": ["Sociedad", "Medioambiente"]
+                },
+                {
+                  "titulo": "Gobierno y transparencia: La rendición de cuentas en la administración pública",
+                  "categorias": ["Gobierno", "Derecho", "Política"]
+                },
+                {
+                  "titulo": "Energía eólica: El poder del viento para un futuro limpio",
+                  "categorias": ["Energía", "Medioambiente"]
+                },
+                {
+                  "titulo": "Transporte público y smart cities: Hacia una movilidad urbana eficiente",
+                  "categorias": ["Transporte", "Tecnología", "Arquitectura"]
+                },
+                {
+                  "titulo": "Ingeniería de software y desarrollo móvil: Creando apps para el futuro",
+                  "categorias": ["Ingeniería de software", "Tecnología"]
+                },
+                {
+                  "titulo": "Biología marina y conservación de océanos: Protegiendo nuestros ecosistemas acuáticos",
+                  "categorias": ["Biología", "Medioambiente", "Naturaleza"]
+                },
+                {
+                  "titulo": "Matemáticas en la inteligencia artificial: Los algoritmos que impulsan el aprendizaje automático",
+                  "categorias": ["Matemáticas", "Tecnología"]
+                },
+                {
+                  "titulo": "Idiomas y viajes: La aventura de explorar nuevas culturas a través de la comunicación",
+                  "categorias": ["Idiomas", "Viajes", "Cultura"]
+                },
+                {
+                  "titulo": "Cocina gourmet y maridaje: La perfecta armonía entre comida y bebida",
+                  "categorias": ["Cocina gourmet", "Alimentación"]
+                },
+                {
+                  "titulo": "Animales de granja y bienestar animal: Prácticas éticas en la producción de alimentos",
+                  "categorias": ["Animales", "Alimentación", "Ética"]
+                },
+                {
+                  "titulo": "Plantas carnívoras: El fascinante mundo de la botánica exótica",
+                  "categorias": ["Plantas", "Biología", "Naturaleza"]
+                },
+                {
+                  "titulo": "Construcción con materiales reciclados: Innovación para un futuro más sostenible",
+                  "categorias": ["Construcción", "Medioambiente", "Ingeniería"]
+                },
+                {
+                  "titulo": "Naturaleza y fotografía de vida salvaje: Capturando momentos únicos en el reino animal",
+                  "categorias": ["Naturaleza", "Fotografía", "Animales"]
+                },
+                {
+                  "titulo": "Clima y cambio climático: Impacto en la agricultura y la seguridad alimentaria",
+                  "categorias": ["Clima", "Medioambiente", "Alimentación"]
+                },
+                
+                    {
+                      "titulo": "Espacio y exploración de Marte: La búsqueda de vida en el planeta rojo",
+                      "categorias": ["Espacio", "Ciencia"]
+                    },
+                    {
+                      "titulo": "Filosofía existencialista: Reflexiones sobre el propósito de la vida",
+                      "categorias": ["Filosofía", "Psicología"]
+                    },
+                    {
+                      "titulo": "Psicología del desarrollo: Entendiendo el crecimiento humano desde la infancia hasta la vejez",
+                      "categorias": ["Psicología", "Educación"]
+                    },
+                    {
+                      "titulo": "Sociología de la familia: Cambios y desafíos en la estructura familiar moderna",
+                      "categorias": ["Sociología", "Sociedad"]
+                    },
+                    {
+                      "titulo": "Derecho penal y derechos humanos: El equilibrio entre la justicia y la libertad",
+                      "categorias": ["Derecho", "Política"]
+                    },
+                    {
+                      "titulo": "Comercio minorista y experiencia del cliente: Claves para el éxito en tiendas físicas y online",
+                      "categorias": ["Comercio", "Marketing"]
+                    },
+                    {
+                      "titulo": "Gastronomía vegetariana y vegana: Recetas deliciosas y nutritivas",
+                      "categorias": ["Gastronomía", "Alimentación"]
+                    },
+                    {
+                      "titulo": "Comunicación política y persuasión: Cómo influyen los discursos en la opinión pública",
+                      "categorias": ["Comunicación", "Política"]
+                    },
+                    {
+                      "titulo": "Ingeniería ambiental: Soluciones tecnológicas para la protección del planeta",
+                      "categorias": ["Ingeniería", "Medioambiente"]
+                    },
+                    {
+                      "titulo": "Arquitectura moderna y urbanismo: Diseñando ciudades inteligentes y sostenibles",
+                      "categorias": ["Arquitectura", "Sociedad", "Tecnología"]
+                    },
+                    {
+                      "titulo": "Fotografía de retrato: Capturando la esencia de las personas a través de la lente",
+                      "categorias": ["Fotografía", "Arte"]
+                    },
+                    {
+                      "titulo": "Juegos de mesa estratégicos: Desarrollando habilidades de pensamiento crítico",
+                      "categorias": ["Juegos", "Educación"]
+                    },
+                    {
+                      "titulo": "Misterio y fenómenos paranormales: La ciencia detrás de lo inexplicable",
+                      "categorias": ["Misterio", "Ciencia"]
+                    },
+                    {
+                      "titulo": "Fantasía heroica y literatura épica: Aventuras legendarias y mundos inmensos",
+                      "categorias": ["Fantasía", "Literatura"]
+                    },
+                    {
+                      "titulo": "Ciencia ficción post-apocalíptica: La supervivencia de la humanidad en un mundo devastado",
+                      "categorias": ["Ciencia ficción", "Literatura", "Sociedad"]
+                    },
+                    {
+                      "titulo": "Terror cósmico: El horror de lo desconocido en el universo",
+                      "categorias": ["Terror", "Espacio"]
+                    },
+                    {
+                      "titulo": "Romance contemporáneo: Historias de amor en la era moderna",
+                      "categorias": ["Romance", "Literatura"]
+                    },
+                    {
+                      "titulo": "Negocios y transformación digital: Adaptando las empresas a la nueva economía",
+                      "categorias": ["Negocios", "Tecnología"]
+                    },
+                    {
+                      "titulo": "Marketing de contenidos y storytelling: Conectando con tu audiencia a través de relatos",
+                      "categorias": ["Marketing", "Comunicación"]
+                    },
+                    {
+                      "titulo": "Publicidad y branding: Construyendo una identidad de marca memorable",
+                      "categorias": ["Publicidad", "Diseño"]
+                    },
+                    {
+                      "titulo": "Diseño de mobiliario: Creando piezas funcionales y estéticas para el hogar",
+                      "categorias": ["Diseño", "Hogar"]
+                    },
+                    {
+                      "titulo": "Medios de comunicación y entretenimiento: La evolución de las plataformas de consumo",
+                      "categorias": ["Medios", "Entretenimiento"]
+                    },
+                    {
+                      "titulo": "Sociedad y cambio climático: El rol de la ciudadanía en la acción ambiental",
+                      "categorias": ["Sociedad", "Medioambiente"]
+                    },
+                    {
+                      "titulo": "Gobierno y ciudadanía digital: Fomentando la participación online",
+                      "categorias": ["Gobierno", "Tecnología"]
+                    },
+                    {
+                      "titulo": "Energía hidroeléctrica: El poder del agua como fuente de energía limpia",
+                      "categorias": ["Energía", "Medioambiente"]
+                    },
+                    {
+                      "titulo": "Transporte sostenible y bicicletas eléctricas: Una alternativa ecológica para la ciudad",
+                      "categorias": ["Transporte", "Vehículos", "Medioambiente"]
+                    },
+                    {
+                      "titulo": "Ingeniería de software y seguridad de redes: Protegiendo la infraestructura digital",
+                      "categorias": ["Ingeniería de software", "Tecnología"]
+                    },
+                    {
+                      "titulo": "Biología molecular y genética: La edición del genoma y sus implicaciones",
+                      "categorias": ["Biología", "Ciencia", "Salud"]
+                    },
+                    {
+                      "titulo": "Matemáticas y criptografía: El arte de proteger la información",
+                      "categorias": ["Matemáticas", "Tecnología"]
+                    },
+                    {
+                      "titulo": "Idiomas y traducción automática: El futuro de la comunicación multilingüe",
+                      "categorias": ["Idiomas", "Tecnología"]
+                    },
+                    {
+                      "titulo": "Cocina gourmet y vinos: El maridaje perfecto para cada ocasión",
+                      "categorias": ["Cocina gourmet", "Alimentación"]
+                    },
+                    {
+                      "titulo": "Vehículos autónomos y ética: Los dilemas morales de la inteligencia artificial en la carretera",
+                      "categorias": ["Vehículos", "Tecnología", "Filosofía"]
+                    },
+                    {
+                      "titulo": "Tecnología médica y diagnósticos avanzados: El futuro de la salud personalizada",
+                      "categorias": ["Tecnología", "Salud"]
+                    },
+                    {
+                      "titulo": "Salud mental en el trabajo: Estrategias para el bienestar emocional en entornos laborales",
+                      "categorias": ["Salud", "Psicología", "Negocios"]
+                    },
+                    {
+                      "titulo": "Finanzas conductuales: La psicología detrás de nuestras decisiones económicas",
+                      "categorias": ["Finanzas", "Psicología"]
+                    },
+                    {
+                      "titulo": "Educación STEAM: Fomentando la ciencia, tecnología, ingeniería, arte y matemáticas",
+                      "categorias": ["Educación", "Ciencia", "Tecnología"]
+                    },
+                    {
+                      "titulo": "Alimentación y cultura: Tradiciones culinarias alrededor del mundo",
+                      "categorias": ["Alimentación", "Historia", "Sociedad"]
+                    },
+                    {
+                      "titulo": "Moda vintage: Rescatando estilos del pasado para el presente",
+                      "categorias": ["Moda", "Historia"]
+                    },
+                    {
+                      "titulo": "Entretenimiento en vivo: Conciertos, teatro y la magia de las experiencias presenciales",
+                      "categorias": ["Entretenimiento", "Música", "Arte"]
+                    },
+                    {
+                      "titulo": "Hogar inteligente y seguridad: Protegiendo tu casa con tecnología de punta",
+                      "categorias": ["Hogar", "Tecnología"]
+                    },
+                    {
+                      "titulo": "Viajes de lujo: Experiencias exclusivas y destinos de ensueño",
+                      "categorias": ["Viajes", "Finanzas"]
+                    },
+                    {
+                      "titulo": "Deportes y política: El impacto de los eventos deportivos en la escena global",
+                      "categorias": ["Deportes", "Política"]
+                    },
+                    {
+                      "titulo": "Arte callejero: Grafiti, murales y la expresión urbana",
+                      "categorias": ["Arte", "Sociedad"]
+                    },
+                    {
+                      "titulo": "Literatura distópica: Sociedades futuras y advertencias para el presente",
+                      "categorias": ["Literatura", "Ciencia ficción", "Sociedad"]
+                    },
+                    {
+                      "titulo": "Música clásica y sus grandes compositores: Un viaje a través de la historia musical",
+                      "categorias": ["Música", "Historia", "Arte"]
+                    },
+                    {
+                      "titulo": "Política y sociedad civil: El poder de las organizaciones no gubernamentales",
+                      "categorias": ["Política", "Sociedad"]
+                    },
+                    {
+                      "titulo": "Medioambiente y economía circular: Reduciendo residuos y promoviendo la sostenibilidad",
+                      "categorias": ["Medioambiente", "Negocios"]
+                    },
+                    {
+                      "titulo": "Historia de las civilizaciones antiguas: Legados que aún nos influyen",
+                      "categorias": ["Historia", "Cultura"]
+                    },
+                    {
+                      "titulo": "Geografía humana: El impacto de las poblaciones en el paisaje",
+                      "categorias": ["Geografía", "Sociedad"]
+                    },
+                    {
+                      "titulo": "Ciencia y medioambiente: La investigación al servicio de la protección de la naturaleza",
+                      "categorias": ["Ciencia", "Medioambiente"]
+                    },
+                    {
+                      "titulo": "Cocina fusión: Mezclando sabores y técnicas de diferentes culturas",
+                      "categorias": ["Cocina", "Gastronomía", "Viajes"]
+                    },
+                    {
+                      "titulo": "Animales de compañía y sus beneficios para la salud mental",
+                      "categorias": ["Animales", "Salud", "Psicología"]
+                    },
+                    {
+                      "titulo": "Plantas y agricultura vertical: El futuro de la producción de alimentos en ciudades",
+                      "categorias": ["Plantas", "Alimentación", "Tecnología"]
+                    },
+                    {
+                      "titulo": "Construcción modular: Rapidez, eficiencia y sostenibilidad en la edificación",
+                      "categorias": ["Construcción", "Ingeniería"]
+                    },
+                    {
+                      "titulo": "Naturaleza y desastres naturales: Cómo entender y prepararse para los fenómenos extremos",
+                      "categorias": ["Naturaleza", "Clima"]
+                    },
+                    {
+                      "titulo": "Clima y predicción meteorológica: La ciencia detrás de los pronósticos",
+                      "categorias": ["Clima", "Ciencia"]
+                    },
+                    {
+                      "titulo": "Espacio y vida extraterrestre: La búsqueda de inteligencia más allá de la Tierra",
+                      "categorias": ["Espacio", "Ciencia", "Misterio"]
+                    },
+                    {
+                      "titulo": "Filosofía oriental: Sabiduría ancestral para la vida moderna",
+                      "categorias": ["Filosofía", "Cultura"]
+                    },
+                    {
+                      "titulo": "Psicología social: Cómo la sociedad influye en nuestro comportamiento",
+                      "categorias": ["Psicología", "Sociología"]
+                    },
+                    {
+                      "titulo": "Sociología del trabajo: El impacto de la globalización en el empleo",
+                      "categorias": ["Sociología", "Negocios"]
+                    },
+                    {
+                      "titulo": "Derecho civil y contratos: Claves para entender tus acuerdos legales",
+                      "categorias": ["Derecho", "Negocios"]
+                    },
+                    {
+                      "titulo": "Comercio y ética empresarial: Responsabilidad social y sostenibilidad en los negocios",
+                      "categorias": ["Comercio", "Negocios", "Medioambiente"]
+                    },
+                    {
+                      "titulo": "Gastronomía molecular y química de los alimentos: La ciencia en tu plato",
+                      "categorias": ["Gastronomía", "Ciencia", "Alimentación"]
+                    },
+                    {
+                      "titulo": "Comunicación no verbal en el liderazgo: Gestos y posturas que transmiten autoridad",
+                      "categorias": ["Comunicación", "Psicología", "Negocios"]
+                    },
+                    {
+                      "titulo": "Ingeniería robótica y automatización: El futuro de la producción industrial",
+                      "categorias": ["Ingeniería", "Tecnología"]
+                    },
+                    {
+                      "titulo": "Arquitectura y diseño de interiores: Creando ambientes que reflejan la personalidad",
+                      "categorias": ["Arquitectura", "Diseño", "Hogar"]
+                    },
+                    {
+                      "titulo": "Fotografía de paisajes: Capturando la grandeza de la naturaleza",
+                      "categorias": ["Fotografía", "Naturaleza", "Arte"]
+                    },
+                    {
+                      "titulo": "Juegos educativos para niños: Aprendizaje divertido en la infancia",
+                      "categorias": ["Juegos", "Educación"]
+                    },
+                    {
+                      "titulo": "Misterio y mitología: Enigmas de leyendas antiguas y seres fantásticos",
+                      "categorias": ["Misterio", "Fantasía", "Historia"]
+                    },
+                    {
+                      "titulo": "Fantasía oscura y videojuegos: Mundos inmersivos de horror y aventura",
+                      "categorias": ["Fantasía", "Terror", "Juegos"]
+                    },
+                    {
+                      "titulo": "Ciencia ficción y filosofía: Explorando los límites de la humanidad y la tecnología",
+                      "categorias": ["Ciencia ficción", "Filosofía", "Tecnología"]
+                    },
+                    
+                        {
+                          "titulo": "Terror sobrenatural: Historias de fantasmas y fenómenos inexplicables",
+                          "categorias": ["Terror", "Misterio"]
+                        },
+                        {
+                          "titulo": "Romance histórico: Amores legendarios en el crisol del tiempo",
+                          "categorias": ["Romance", "Historia"]
+                        },
+                        {
+                          "titulo": "Negocios internacionales: Desafíos y oportunidades en mercados emergentes",
+                          "categorias": ["Negocios", "Comercio", "Finanzas"]
+                        },
+                        {
+                          "titulo": "Marketing de redes sociales: Estrategias para construir comunidades online",
+                          "categorias": ["Marketing", "Comunicación"]
+                        },
+                        {
+                          "titulo": "Publicidad y psicología: Cómo las marcas influyen en nuestras emociones",
+                          "categorias": ["Publicidad", "Psicología"]
+                        },
+                        {
+                          "titulo": "Diseño UX/UI para aplicaciones móviles: Creando experiencias intuitivas",
+                          "categorias": ["Diseño", "Tecnología"]
+                        },
+                        {
+                          "titulo": "Medios de comunicación y desinformación: El reto de las noticias falsas",
+                          "categorias": ["Medios", "Sociedad"]
+                        },
+                        {
+                          "titulo": "Sociedad y justicia: Abordando la desigualdad y la exclusión social",
+                          "categorias": ["Sociedad", "Derecho"]
+                        },
+                        {
+                          "titulo": "Gobierno y políticas económicas: Impacto en el desarrollo nacional",
+                          "categorias": ["Gobierno", "Finanzas"]
+                        },
+                        {
+                          "titulo": "Energía nuclear y sus debates: Seguridad, residuos y el futuro energético",
+                          "categorias": ["Energía", "Ciencia", "Política"]
+                        },
+                        {
+                          "titulo": "Transporte de mercancías y logística: La columna vertebral del comercio global",
+                          "categorias": ["Transporte", "Comercio"]
+                        },
+                        {
+                          "titulo": "Ingeniería de software y desarrollo de videojuegos: Creando mundos virtuales",
+                          "categorias": ["Ingeniería de software", "Juegos", "Tecnología"]
+                        },
+                        {
+                          "titulo": "Biología y medicina: La lucha contra las enfermedades genéticas",
+                          "categorias": ["Biología", "Salud"]
+                        },
+                        {
+                          "titulo": "Matemáticas aplicadas a la ingeniería: Resolviendo problemas del mundo real",
+                          "categorias": ["Matemáticas", "Ingeniería"]
+                        },
+                        {
+                          "titulo": "Idiomas y viajes: Experiencias inmersivas para aprender nuevas lenguas",
+                          "categorias": ["Idiomas", "Viajes", "Educación"]
+                        },
+                        {
+                          "titulo": "Cocina gourmet y nutrición: Placer culinario sin renunciar a la salud",
+                          "categorias": ["Cocina gourmet", "Alimentación", "Salud"]
+                        },
+                        {
+                          "titulo": "Vehículos autónomos y seguridad vial: Retos y oportunidades",
+                          "categorias": ["Vehículos", "Tecnología", "Seguridad"]
+                        },
+                        {
+                          "titulo": "Tecnología de asistencia en salud: Innovaciones para mejorar la calidad de vida",
+                          "categorias": ["Tecnología", "Salud"]
+                        },
+                        {
+                          "titulo": "Salud mental y estigma: Derribando barreras para buscar ayuda",
+                          "categorias": ["Salud", "Psicología", "Sociedad"]
+                        },
+                        {
+                          "titulo": "Finanzas sostenibles: Inversiones con impacto social y ambiental",
+                          "categorias": ["Finanzas", "Medioambiente", "Sociedad"]
+                        },
+                        {
+                          "titulo": "Educación personalizada: Adaptando el aprendizaje a cada estudiante",
+                          "categorias": ["Educación", "Tecnología"]
+                        },
+                        {
+                          "titulo": "Alimentación del futuro: Proteínas alternativas y alimentos cultivados",
+                          "categorias": ["Alimentación", "Ciencia", "Tecnología"]
+                        },
+                        {
+                          "titulo": "Moda urbana y street style: Tendencias que nacen en la calle",
+                          "categorias": ["Moda", "Sociedad"]
+                        },
+                        {
+                          "titulo": "Entretenimiento online: La era de los streamers y creadores de contenido",
+                          "categorias": ["Entretenimiento", "Tecnología", "Medios"]
+                        },
+                        {
+                          "titulo": "Hogar y mascotas: Creando un ambiente ideal para tus animales de compañía",
+                          "categorias": ["Hogar", "Animales"]
+                        },
+                        {
+                          "titulo": "Viajes en solitario: Aventuras y autodescubrimiento alrededor del mundo",
+                          "categorias": ["Viajes", "Psicología"]
+                        },
+                        {
+                          "titulo": "Deportes y tecnología: Innovaciones que mejoran el rendimiento atlético",
+                          "categorias": ["Deportes", "Tecnología"]
+                        },
+                        {
+                          "titulo": "Arte digital: La creatividad en la era de los píxeles",
+                          "categorias": ["Arte", "Tecnología"]
+                        },
+                        {
+                          "titulo": "Literatura infantil y juvenil: Fomentando la lectura desde temprana edad",
+                          "categorias": ["Literatura", "Educación"]
+                        },
+                        {
+                          "titulo": "Música y cine: La banda sonora que marca nuestras vidas",
+                          "categorias": ["Música", "Entretenimiento"]
+                        },
+                        {
+                          "titulo": "Política y derechos humanos: La lucha por la igualdad y la justicia",
+                          "categorias": ["Política", "Derecho", "Sociedad"]
+                        },
+                        {
+                          "titulo": "Medioambiente y energías renovables: Un futuro sin combustibles fósiles",
+                          "categorias": ["Medioambiente", "Energía"]
+                        },
+                        {
+                          "titulo": "Historia del futuro: Explorando cómo el pasado predijo el mañana",
+                          "categorias": ["Historia", "Ciencia ficción"]
+                        },
+                        {
+                          "titulo": "Geografía política: El estudio de las fronteras y los conflictos territoriales",
+                          "categorias": ["Geografía", "Política"]
+                        },
+                        {
+                          "titulo": "Ciencia y sociedad: El impacto de los descubrimientos científicos en nuestras vidas",
+                          "categorias": ["Ciencia", "Sociedad"]
+                        },
+                        {
+                          "titulo": "Cocina saludable y dietas especiales: Opciones deliciosas para todos los estilos de vida",
+                          "categorias": ["Cocina", "Alimentación", "Salud"]
+                        },
+                        {
+                          "titulo": "Animales exóticos y su conservación: La protección de especies únicas",
+                          "categorias": ["Animales", "Medioambiente"]
+                        },
+                        {
+                          "titulo": "Plantas de interior y feng shui: Armonizando tu hogar con la naturaleza",
+                          "categorias": ["Plantas", "Hogar", "Diseño"]
+                        },
+                        {
+                          "titulo": "Construcción y diseño paramétrico: La arquitectura generativa y sus posibilidades",
+                          "categorias": ["Construcción", "Arquitectura", "Diseño", "Tecnología"]
+                        },
+                        {
+                          "titulo": "Naturaleza salvaje y aventura: Expediciones a los rincones más remotos del planeta",
+                          "categorias": ["Naturaleza", "Viajes", "Deportes"]
+                        },
+                        {
+                          "titulo": "Clima y eventos extremos: La ciencia detrás de huracanes y tornados",
+                          "categorias": ["Clima", "Ciencia"]
+                        },
+                        {
+                          "titulo": "Espacio y vida en el universo: La astrobiología y la búsqueda de vida más allá de la Tierra",
+                          "categorias": ["Espacio", "Ciencia", "Biología"]
+                        },
+                        {
+                          "titulo": "Filosofía y psicología existencial: La búsqueda de sentido en la vida",
+                          "categorias": ["Filosofía", "Psicología"]
+                        },
+                        {
+                          "titulo": "Psicología forense: La mente criminal y la justicia",
+                          "categorias": ["Psicología", "Derecho", "Misterio"]
+                        },
+                        {
+                          "titulo": "Sociología de la tecnología: Cómo la digitalización transforma las interacciones humanas",
+                          "categorias": ["Sociología", "Tecnología"]
+                        },
+                        {
+                          "titulo": "Derecho de propiedad intelectual: Protegiendo la creatividad en la era digital",
+                          "categorias": ["Derecho", "Tecnología", "Arte"]
+                        },
+                        {
+                          "titulo": "Comercio justo y responsabilidad social: Un enfoque ético en los negocios",
+                          "categorias": ["Comercio", "Negocios", "Sociedad"]
+                        },
+                        {
+                          "titulo": "Gastronomía, cultura y turismo: Sabores que definen destinos",
+                          "categorias": ["Gastronomía", "Viajes", "Sociedad"]
+                        },
+                        {
+                          "titulo": "Comunicación digital y marketing de influencia: Nuevas formas de conectar con audiencias",
+                          "categorias": ["Comunicación", "Marketing", "Tecnología"]
+                        },
+                        {
+                          "titulo": "Ingeniería biomédica y salud: Dispositivos médicos y avances tecnológicos",
+                          "categorias": ["Ingeniería", "Salud", "Tecnología"]
+                        },
+                        {
+                          "titulo": "Arquitectura sostenible y energías renovables: Edificios que generan su propia energía",
+                          "categorias": ["Arquitectura", "Energía", "Medioambiente"]
+                        },
+                        {
+                          "titulo": "Fotografía de moda: Capturando el glamour y la creatividad en el estilo",
+                          "categorias": ["Fotografía", "Moda"]
+                        },
+                        {
+                          "titulo": "Juegos, fantasía y misterio: Aventuras interactivas llenas de enigmas",
+                          "categorias": ["Juegos", "Fantasía", "Misterio"]
+                        },
+                        {
+                          "titulo": "Misterio y terror en la literatura: Clásicos que te quitarán el sueño",
+                          "categorias": ["Misterio", "Terror", "Literatura"]
+                        },
+                        {
+                          "titulo": "Fantasía épica y juegos de rol: Inmersión en mundos legendarios",
+                          "categorias": ["Fantasía", "Juegos"]
+                        },
+                        {
+                          "titulo": "Ciencia ficción y robots: La evolución de la inteligencia artificial",
+                          "categorias": ["Ciencia ficción", "Tecnología"]
+                        },
+                        {
+                          "titulo": "Terror psicológico: La mente como escenario del horror",
+                          "categorias": ["Terror", "Psicología"]
+                        },
+                        {
+                          "titulo": "Romance y relaciones de pareja: Consejos para un amor duradero",
+                          "categorias": ["Romance", "Psicología"]
+                        },
+                        {
+                          "titulo": "Negocios y emprendimiento social: Creando impacto positivo con tu empresa",
+                          "categorias": ["Negocios", "Sociedad"]
+                        },
+                        {
+                          "titulo": "Marketing digital y SEO: Las claves para el éxito en los motores de búsqueda",
+                          "categorias": ["Marketing", "Tecnología"]
+                        },
+                        {
+                          "titulo": "Publicidad y diseño gráfico: El arte de comunicar visualmente",
+                          "categorias": ["Publicidad", "Diseño"]
+                        },
+                        {
+                          "titulo": "Diseño de producto y sostenibilidad: Creando objetos con conciencia ecológica",
+                          "categorias": ["Diseño", "Medioambiente"]
+                        },
+                        {
+                          "titulo": "Medios y periodismo de investigación: La búsqueda de la verdad",
+                          "categorias": ["Medios", "Misterio", "Política"]
+                        },
+                        {
+                          "titulo": "Sociedad y medioambiente: El desafío de la convivencia sostenible",
+                          "categorias": ["Sociedad", "Medioambiente"]
+                        },
+                        {
+                          "titulo": "Gobierno y derechos civiles: La protección de las libertades individuales",
+                          "categorias": ["Gobierno", "Derecho"]
+                        },
+                        {
+                          "titulo": "Energía y futuro: Hacia un mix energético global sostenible",
+                          "categorias": ["Energía", "Medioambiente", "Tecnología"]
+                        },
+                        {
+                          "titulo": "Transporte de carga y logística internacional: La eficiencia en el comercio global",
+                          "categorias": ["Transporte", "Comercio"]
+                        },
+                        {
+                          "titulo": "Ingeniería de software y ciberseguridad: Protegiendo sistemas críticos",
+                          "categorias": ["Ingeniería de software", "Tecnología", "Derecho"]
+                        },
+                        {
+                          "titulo": "Biología y botánica: La diversidad del reino vegetal",
+                          "categorias": ["Biología", "Plantas"]
+                        },
+                        {
+                          "titulo": "Matemáticas y física cuántica: Explorando los fundamentos del universo",
+                          "categorias": ["Matemáticas", "Ciencia", "Espacio"]
+                        },
+                        {
+                          "titulo": "Idiomas y lingüística: La ciencia detrás del lenguaje humano",
+                          "categorias": ["Idiomas", "Ciencia"]
+                        },
+                        {
+                          "titulo": "Cocina gourmet y técnicas culinarias: El arte de la alta gastronomía",
+                          "categorias": ["Cocina gourmet", "Gastronomía", "Arte"]
+                        },
+                        {
+                          "titulo": "Animales en su hábitat natural: Fotografía de vida salvaje y conservación",
+                          "categorias": ["Animales", "Naturaleza", "Fotografía"]
+                        },
+                        {
+                          "titulo": "Plantas medicinales y su uso en la salud: Remedios naturales y herbolaria",
+                          "categorias": ["Plantas", "Salud"]
+                        },
+                        {
+                          "titulo": "Construcción sostenible y materiales ecológicos: Edificando el futuro verde",
+                          "categorias": ["Construcción", "Medioambiente", "Ingeniería"]
+                        },
+                        
+                            {
+                              "titulo": "Naturaleza y fenómenos naturales: La belleza y el poder de la Tierra",
+                              "categorias": ["Naturaleza", "Geografía"]
+                            },
+                            {
+                              "titulo": "Clima y geología: Cómo el tiempo moldea el paisaje del planeta",
+                              "categorias": ["Clima", "Ciencia", "Geografía"]
+                            },
+                            {
+                              "titulo": "Espacio profundo y telescopios: Descubriendo los confines del cosmos",
+                              "categorias": ["Espacio", "Ciencia", "Tecnología"]
+                            },
+                            {
+                              "titulo": "Filosofía moral y dilemas éticos: Tomando decisiones en un mundo complejo",
+                              "categorias": ["Filosofía", "Sociedad"]
+                            },
+                            {
+                              "titulo": "Psicología del aprendizaje: Cómo funciona la mente cuando adquirimos conocimientos",
+                              "categorias": ["Psicología", "Educación"]
+                            },
+                            {
+                              "titulo": "Sociología del deporte: El impacto social y cultural de los eventos deportivos",
+                              "categorias": ["Sociología", "Deportes", "Cultura"]
+                            },
+                            {
+                              "titulo": "Derecho constitucional: Las bases legales de una nación democrática",
+                              "categorias": ["Derecho", "Política"]
+                            },
+                            {
+                              "titulo": "Comercio internacional y desafíos logísticos: Superando barreras en el mercado global",
+                              "categorias": ["Comercio", "Transporte", "Negocios"]
+                            },
+                            {
+                              "titulo": "Gastronomía sostenible: Cocina con ingredientes de temporada y de origen local",
+                              "categorias": ["Gastronomía", "Alimentación", "Medioambiente"]
+                            },
+                            {
+                              "titulo": "Comunicación interpersonal: Mejorando tus habilidades para conectar con otros",
+                              "categorias": ["Comunicación", "Psicología"]
+                            },
+                            {
+                              "titulo": "Ingeniería civil y desarrollo urbano: Construyendo ciudades del futuro",
+                              "categorias": ["Ingeniería", "Arquitectura", "Sociedad"]
+                            },
+                            {
+                              "titulo": "Arquitectura y diseño de paisajes: La integración de edificios con el entorno natural",
+                              "categorias": ["Arquitectura", "Diseño", "Naturaleza"]
+                            },
+                            {
+                              "titulo": "Fotografía periodística: Contando historias a través de la imagen",
+                              "categorias": ["Fotografía", "Medios", "Comunicación"]
+                            },
+                            {
+                              "titulo": "Juegos de rol y narrativa interactiva: Creando tus propias aventuras épicas",
+                              "categorias": ["Juegos", "Literatura", "Fantasía"]
+                            },
+                            {
+                              "titulo": "Misterio sin resolver: Crímenes y enigmas que desafían la lógica",
+                              "categorias": ["Misterio", "Historia"]
+                            },
+                            {
+                              "titulo": "Fantasía épica y mitología: Los orígenes de los mundos de fantasía",
+                              "categorias": ["Fantasía", "Literatura", "Historia"]
+                            },
+                            {
+                              "titulo": "Ciencia ficción y viajes en el tiempo: Explorando las paradojas temporales",
+                              "categorias": ["Ciencia ficción", "Ciencia", "Filosofía"]
+                            },
+                            {
+                              "titulo": "Terror gótico y literatura: La atmósfera sombría y el horror psicológico",
+                              "categorias": ["Terror", "Literatura", "Psicología"]
+                            },
+                            {
+                              "titulo": "Romance y bienestar: Las claves para relaciones saludables y felices",
+                              "categorias": ["Romance", "Psicología", "Salud"]
+                            },
+                            {
+                              "titulo": "Negocios familiares: Tradición, innovación y los desafíos generacionales",
+                              "categorias": ["Negocios", "Historia", "Sociedad"]
+                            },
+                            {
+                              "titulo": "Marketing de contenidos y SEO: Posicionando tu marca en el ecosistema digital",
+                              "categorias": ["Marketing", "Tecnología"]
+                            },
+                            {
+                              "titulo": "Publicidad creativa y campañas innovadoras: Impactando a la audiencia",
+                              "categorias": ["Publicidad", "Diseño"]
+                            },
+                            {
+                              "titulo": "Diseño gráfico y branding: La identidad visual de las marcas exitosas",
+                              "categorias": ["Diseño", "Marketing", "Negocios"]
+                            },
+                            {
+                              "titulo": "Medios de comunicación y redes sociales: El impacto en la formación de la opinión pública",
+                              "categorias": ["Medios", "Comunicación", "Sociedad"]
+                            },
+                            {
+                              "titulo": "Sociedad civil y activismo: El poder de la movilización social",
+                              "categorias": ["Sociedad", "Política"]
+                            },
+                            {
+                              "titulo": "Gobierno y relaciones internacionales: La diplomacia en un mundo globalizado",
+                              "categorias": ["Gobierno", "Política", "Historia"]
+                            },
+                            {
+                              "titulo": "Energía solar y autosuficiencia energética: Generando tu propia electricidad",
+                              "categorias": ["Energía", "Hogar", "Medioambiente"]
+                            },
+                            {
+                              "titulo": "Transporte ferroviario: Historia, avances y el futuro de los trenes de alta velocidad",
+                              "categorias": ["Transporte", "Historia", "Ingeniería"]
+                            },
+                            {
+                              "titulo": "Ingeniería de software y blockchain: Desarrollando aplicaciones descentralizadas",
+                              "categorias": ["Ingeniería de software", "Tecnología", "Finanzas"]
+                            },
+                            {
+                              "titulo": "Biología marina y ecología oceánica: La vida en las profundidades del mar",
+                              "categorias": ["Biología", "Naturaleza", "Medioambiente"]
+                            },
+                            {
+                              "titulo": "Matemáticas en la vida cotidiana: Calculando probabilidades y tomando decisiones",
+                              "categorias": ["Matemáticas", "Educación", "Psicología"]
+                            },
+                            {
+                              "titulo": "Idiomas y neurociencia: Cómo el cerebro procesa las diferentes lenguas",
+                              "categorias": ["Idiomas", "Ciencia", "Psicología"]
+                            },
+                            {
+                              "titulo": "Cocina saludable y nutrición infantil: Hábitos alimenticios para niños",
+                              "categorias": ["Cocina", "Alimentación", "Salud", "Educación"]
+                            },
+                            {
+                              "titulo": "Vehículos eléctricos y el impacto en la red eléctrica: Desafíos y oportunidades",
+                              "categorias": ["Vehículos", "Energía", "Tecnología"]
+                            },
+                            {
+                              "titulo": "Tecnología de la información y ciberseguridad: Protegiendo tus datos personales",
+                              "categorias": ["Tecnología", "Derecho", "Hogar"]
+                            },
+                            {
+                              "titulo": "Salud mental y el papel de la comunidad: Creando redes de apoyo",
+                              "categorias": ["Salud", "Psicología", "Sociedad"]
+                            },
+                            {
+                              "titulo": "Finanzas y el mercado de valores: Invirtiendo con inteligencia para el futuro",
+                              "categorias": ["Finanzas", "Negocios"]
+                            },
+                            {
+                              "titulo": "Educación a distancia y nuevas metodologías: El aprendizaje flexible en la era digital",
+                              "categorias": ["Educación", "Tecnología"]
+                            },
+                            {
+                              "titulo": "Alimentación consciente y bienestar emocional: La conexión entre la comida y el estado de ánimo",
+                              "categorias": ["Alimentación", "Salud", "Psicología"]
+                            },
+                            {
+                              "titulo": "Moda y tecnología: Innovaciones en tejidos inteligentes y diseño 3D",
+                              "categorias": ["Moda", "Tecnología", "Diseño"]
+                            },
+                            {
+                              "titulo": "Entretenimiento familiar: Actividades y juegos para todas las edades",
+                              "categorias": ["Entretenimiento", "Juegos", "Hogar"]
+                            },
+                            {
+                              "titulo": "Hogar verde: Consejos para una casa ecológica y sostenible",
+                              "categorias": ["Hogar", "Medioambiente", "Construcción"]
+                            },
+                            {
+                              "titulo": "Viajes culturales y tradiciones: Explorando la diversidad de las costumbres locales",
+                              "categorias": ["Viajes", "Cultura", "Sociedad"]
+                            },
+                            {
+                              "titulo": "Deportes de equipo y liderazgo: Estrategias para el éxito colectivo",
+                              "categorias": ["Deportes", "Psicología", "Negocios"]
+                            },
+                            {
+                              "titulo": "Arte callejero y expresión social: Mensajes en muros y grafitis",
+                              "categorias": ["Arte", "Sociedad", "Comunicación"]
+                            },
+                            {
+                              "titulo": "Literatura de terror y suspenso: Clásicos que te harán temblar de miedo",
+                              "categorias": ["Literatura", "Terror"]
+                            },
+                            {
+                              "titulo": "Música y sus géneros: Un recorrido por la historia de los sonidos",
+                              "categorias": ["Música", "Historia", "Cultura"]
+                            },
+                            {
+                              "titulo": "Política y opinión pública: El papel de las encuestas y los medios",
+                              "categorias": ["Política", "Medios", "Comunicación"]
+                            },
+                            {
+                              "titulo": "Medioambiente y activismo: Movimientos sociales por la protección de la Tierra",
+                              "categorias": ["Medioambiente", "Sociedad", "Política"]
+                            },
+                            {
+                              "titulo": "Historia universal: Eventos clave que transformaron el mundo",
+                              "categorias": ["Historia", "Cultura"]
+                            },
+                            {
+                              "titulo": "Geografía física y desastres naturales: Cómo se forman los tsunamis y terremotos",
+                              "categorias": ["Geografía", "Clima", "Ciencia"]
+                            },
+                            {
+                              "titulo": "Ciencia de datos y Big Data: El análisis de la información para la toma de decisiones",
+                              "categorias": ["Ciencia", "Tecnología", "Negocios"]
+                            },
+                            {
+                              "titulo": "Cocina molecular y alta gastronomía: La ciencia en los fogones",
+                              "categorias": ["Cocina gourmet", "Ciencia", "Gastronomía"]
+                            },
+                            {
+                              "titulo": "Animales en peligro de extinción y proyectos de conservación: Salvando la biodiversidad",
+                              "categorias": ["Animales", "Medioambiente", "Ciencia"]
+                            },
+                            {
+                              "titulo": "Plantas medicinales y remedios naturales: La farmacia de la naturaleza",
+                              "categorias": ["Plantas", "Salud", "Naturaleza"]
+                            },
+                            {
+                              "titulo": "Construcción ecológica y materiales reciclados: Edificando un futuro más verde",
+                              "categorias": ["Construcción", "Medioambiente", "Ingeniería"]
+                            },
+                            {
+                              "titulo": "Naturaleza y fotografía de paisaje: El arte de capturar la grandeza del entorno",
+                              "categorias": ["Naturaleza", "Fotografía", "Arte"]
+                            },
+                            {
+                              "titulo": "Clima y el efecto invernadero: Las causas y consecuencias del calentamiento global",
+                              "categorias": ["Clima", "Medioambiente", "Ciencia"]
+                            },
+                            {
+                              "titulo": "Espacio y exploración espacial privada: El auge de la industria aeroespacial",
+                              "categorias": ["Espacio", "Tecnología", "Negocios"]
+                            },
+                            {
+                              "titulo": "Filosofía del lenguaje: Cómo las palabras construyen nuestra realidad",
+                              "categorias": ["Filosofía", "Comunicación", "Literatura"]
+                            },
+                            {
+                              "titulo": "Psicología positiva: Fomentando el bienestar y la felicidad en la vida",
+                              "categorias": ["Psicología", "Salud"]
+                            },
+                            {
+                              "titulo": "Sociología de la educación: El impacto de la escuela en la sociedad",
+                              "categorias": ["Sociología", "Educación"]
+                            },
+                            {
+                              "titulo": "Derecho laboral y derechos de los trabajadores: La protección en el ámbito profesional",
+                              "categorias": ["Derecho", "Negocios", "Sociedad"]
+                            },
+                            {
+                              "titulo": "Comercio justo y responsabilidad social: Un camino hacia un consumo más ético",
+                              "categorias": ["Comercio", "Sociedad", "Ética"]
+                            },
+                            {
+                              "titulo": "Gastronomía internacional y sus orígenes: Un viaje culinario por el mundo",
+                              "categorias": ["Gastronomía", "Historia", "Viajes"]
+                            },
+                            {
+                              "titulo": "Comunicación no verbal en las relaciones: El poder de los gestos y expresiones",
+                              "categorias": ["Comunicación", "Psicología", "Romance"]
+                            },
+                            {
+                              "titulo": "Ingeniería mecatrónica: La fusión de mecánica, electrónica e informática",
+                              "categorias": ["Ingeniería", "Tecnología", "Robótica"]
+                            },
+                            {
+                              "titulo": "Arquitectura sustentable y materiales innovadores: Diseñando el futuro de la construcción",
+                              "categorias": ["Arquitectura", "Construcción", "Medioambiente"]
+                            },
+                            {
+                              "titulo": "Fotografía urbana y vida en la ciudad: Capturando la esencia de la metrópolis",
+                              "categorias": ["Fotografía", "Sociedad", "Arte"]
+                            },
+                            {
+                              "titulo": "Juegos de rol y desarrollo personal: Habilidades para la vida real",
+                              "categorias": ["Juegos", "Psicología", "Educación"]
+                            },
+                            {
+                              "titulo": "Misterio y leyendas urbanas: Historias que desafían la credulidad",
+                              "categorias": ["Misterio", "Sociedad", "Literatura"]
+                            },
+                            {
+                              "titulo": "Fantasía oscura y el género gótico: Mundos sombríos y atmósferas inquietantes",
+                              "categorias": ["Fantasía", "Terror", "Literatura"]
+                            },
+                            {
+                              "titulo": "Ciencia ficción y el transhumanismo: La evolución de la especie humana con la tecnología",
+                              "categorias": ["Ciencia ficción", "Tecnología", "Filosofía"]
+                            },
+                            {
+                              "titulo": "Terror psicológico en la literatura: El miedo que nace en la mente",
+                              "categorias": ["Terror", "Literatura", "Psicología"]
+                            },
+                            {
+                              "titulo": "Romance y la química del amor: La ciencia detrás de la atracción",
+                              "categorias": ["Romance", "Ciencia", "Psicología"]
+                            },
+                            {
+                              "titulo": "Negocios y recursos humanos: Gestionando el talento en las organizaciones",
+                              "categorias": ["Negocios", "Psicología"]
+                            },
+                            {
+                              "titulo": "Marketing de eventos: Creando experiencias memorables para los consumidores",
+                              "categorias": ["Marketing", "Publicidad", "Entretenimiento"]
+                            },
+                            
+                                {
+                                  "titulo": "Publicidad exterior y nuevas tecnologías: El futuro de los anuncios en las calles",
+                                  "categorias": ["Publicidad", "Tecnología"]
+                                },
+                                {
+                                  "titulo": "Diseño de moda y tendencias globales: Pronósticos para la próxima temporada",
+                                  "categorias": ["Diseño", "Moda", "Comercio"]
+                                },
+                                {
+                                  "titulo": "Medios de comunicación y el futuro de las noticias: El auge de las plataformas digitales",
+                                  "categorias": ["Medios", "Comunicación", "Tecnología"]
+                                },
+                                {
+                                  "titulo": "Sociedad y medioambiente: El rol de las ciudades en la lucha contra el cambio climático",
+                                  "categorias": ["Sociedad", "Medioambiente", "Arquitectura"]
+                                },
+                                {
+                                  "titulo": "Gobierno local y participación ciudadana: Fomentando la democracia a nivel municipal",
+                                  "categorias": ["Gobierno", "Política", "Sociedad"]
+                                },
+                                {
+                                  "titulo": "Energía geotérmica: Cómo se aprovecha el calor de la Tierra para la electricidad",
+                                  "categorias": ["Energía", "Ciencia"]
+                                },
+                                {
+                                  "titulo": "Transporte aéreo y desarrollo sostenible: Desafíos ambientales de la aviación",
+                                  "categorias": ["Transporte", "Medioambiente"]
+                                },
+                                {
+                                  "titulo": "Ingeniería de software y desarrollo de videojuegos: Detrás de escena de tus juegos favoritos",
+                                  "categorias": ["Ingeniería de software", "Juegos", "Entretenimiento"]
+                                },
+                                {
+                                  "titulo": "Biología molecular y edición genética: CRISPR y el futuro de la medicina",
+                                  "categorias": ["Biología", "Ciencia", "Salud"]
+                                },
+                                {
+                                  "titulo": "Matemáticas en la criptografía: La ciencia de la seguridad de la información",
+                                  "categorias": ["Matemáticas", "Tecnología"]
+                                },
+                                {
+                                  "titulo": "Idiomas y bilingüismo: Ventajas cognitivas de hablar dos o más lenguas",
+                                  "categorias": ["Idiomas", "Educación", "Psicología"]
+                                },
+                                {
+                                  "titulo": "Cocina fusión: La mezcla de sabores y culturas en la gastronomía moderna",
+                                  "categorias": ["Cocina gourmet", "Gastronomía", "Cultura"]
+                                },
+                                {
+                                  "titulo": "Vehículos autónomos y ética: Los dilemas morales de los coches sin conductor",
+                                  "categorias": ["Vehículos", "Tecnología", "Filosofía"]
+                                },
+                                {
+                                  "titulo": "Tecnología de asistencia y calidad de vida: Innovaciones para personas con discapacidad",
+                                  "categorias": ["Tecnología", "Salud", "Sociedad"]
+                                },
+                                {
+                                  "titulo": "Salud mental en el lugar de trabajo: Cómo las empresas promueven el bienestar",
+                                  "categorias": ["Salud", "Psicología", "Negocios"]
+                                },
+                                {
+                                  "titulo": "Finanzas conductuales y decisiones de inversión: La psicología del dinero",
+                                  "categorias": ["Finanzas", "Psicología"]
+                                },
+                                {
+                                  "titulo": "Educación STEAM: Fomentando el pensamiento crítico y la creatividad en los jóvenes",
+                                  "categorias": ["Educación", "Ciencia", "Tecnología"]
+                                },
+                                {
+                                  "titulo": "Alimentación consciente y mindfulness: Comer para el bienestar total",
+                                  "categorias": ["Alimentación", "Salud", "Psicología"]
+                                },
+                                {
+                                  "titulo": "Moda ética y consumo responsable: Vestir con conciencia ambiental y social",
+                                  "categorias": ["Moda", "Medioambiente", "Sociedad"]
+                                },
+                                {
+                                  "titulo": "Entretenimiento en streaming: El impacto de Netflix, Disney+ y otras plataformas",
+                                  "categorias": ["Entretenimiento", "Tecnología", "Medios"]
+                                },
+                                {
+                                  "titulo": "Hogar inteligente y eficiencia energética: Reduciendo tu huella de carbono en casa",
+                                  "categorias": ["Hogar", "Energía", "Medioambiente"]
+                                },
+                                {
+                                  "titulo": "Viajes de aventura y fotografía: Capturando paisajes épicos y experiencias únicas",
+                                  "categorias": ["Viajes", "Fotografía", "Deportes"]
+                                },
+                                {
+                                  "titulo": "Deportes de élite y entrenamiento mental: La importancia de la fortaleza psicológica",
+                                  "categorias": ["Deportes", "Psicología"]
+                                },
+                                {
+                                  "titulo": "Arte contemporáneo y su significado: Interpretando las obras de hoy",
+                                  "categorias": ["Arte", "Cultura"]
+                                },
+                                {
+                                  "titulo": "Literatura fantástica: De Tolkien a G.R.R. Martin, la evolución del género",
+                                  "categorias": ["Literatura", "Fantasía", "Historia"]
+                                },
+                                {
+                                  "titulo": "Música clásica y sus beneficios para la salud: Terapia sonora y relajación",
+                                  "categorias": ["Música", "Salud"]
+                                },
+                                {
+                                  "titulo": "Política y polarización social: Desafíos para la democracia en la era digital",
+                                  "categorias": ["Política", "Sociedad", "Medios"]
+                                },
+                                {
+                                  "titulo": "Medioambiente urbano y biodiversidad: Fomentando la naturaleza en las ciudades",
+                                  "categorias": ["Medioambiente", "Naturaleza", "Arquitectura"]
+                                },
+                                {
+                                  "titulo": "Historia de las civilizaciones perdidas: Arqueología y enigmas del pasado",
+                                  "categorias": ["Historia", "Misterio", "Ciencia"]
+                                },
+                                {
+                                  "titulo": "Geografía económica: El impacto de la ubicación en el desarrollo comercial",
+                                  "categorias": ["Geografía", "Finanzas", "Negocios"]
+                                },
+                                {
+                                  "titulo": "Ciencia de materiales y nanotecnología: El futuro de la fabricación",
+                                  "categorias": ["Ciencia", "Tecnología", "Ingeniería"]
+                                },
+                                {
+                                  "titulo": "Cocina saludable y dietas vegetarianas: Platos deliciosos y nutritivos sin carne",
+                                  "categorias": ["Cocina", "Alimentación", "Salud"]
+                                },
+                                {
+                                  "titulo": "Animales de compañía y su cuidado: Todo lo que necesitas saber para tener una mascota feliz",
+                                  "categorias": ["Animales", "Hogar", "Salud"]
+                                },
+                                {
+                                  "titulo": "Plantas exóticas y botánica: Descubriendo la flora más rara del mundo",
+                                  "categorias": ["Plantas", "Biología", "Naturaleza"]
+                                },
+                                {
+                                  "titulo": "Construcción modular y casas prefabricadas: La eficiencia en la edificación",
+                                  "categorias": ["Construcción", "Hogar", "Ingeniería"]
+                                },
+                                {
+                                  "titulo": "Naturaleza y desastres naturales: Cómo se forman los volcanes y los terremotos",
+                                  "categorias": ["Naturaleza", "Ciencia"]
+                                },
+                                {
+                                  "titulo": "Clima extremo y sus impactos: Sequías, inundaciones y sus consecuencias globales",
+                                  "categorias": ["Clima", "Medioambiente", "Sociedad"]
+                                },
+                                {
+                                  "titulo": "Espacio y astronomía amateur: Observando el universo desde casa",
+                                  "categorias": ["Espacio", "Ciencia", "Hogar"]
+                                },
+                                {
+                                  "titulo": "Filosofía y religión: Un diálogo sobre la fe y la razón",
+                                  "categorias": ["Filosofía", "Cultura"]
+                                },
+                                {
+                                  "titulo": "Psicología del color: Cómo los tonos influyen en nuestras emociones y decisiones",
+                                  "categorias": ["Psicología", "Diseño", "Marketing"]
+                                },
+                                {
+                                  "titulo": "Sociología del género: Roles, estereotipos y la construcción social de la identidad",
+                                  "categorias": ["Sociología", "Sociedad"]
+                                },
+                                {
+                                  "titulo": "Derecho internacional humanitario: Protegiendo a las víctimas de conflictos armados",
+                                  "categorias": ["Derecho", "Política", "Historia"]
+                                },
+                                {
+                                  "titulo": "Comercio electrónico transfronterizo: Desafíos y oportunidades para las empresas",
+                                  "categorias": ["Comercio", "Negocios", "Tecnología"]
+                                },
+                                {
+                                  "titulo": "Gastronomía sostenible y consumo local: Apoyando a productores y reduciendo el impacto ambiental",
+                                  "categorias": ["Gastronomía", "Alimentación", "Medioambiente"]
+                                },
+                                {
+                                  "titulo": "Comunicación científica: Haciendo la ciencia accesible para todos",
+                                  "categorias": ["Comunicación", "Ciencia", "Educación"]
+                                },
+                                {
+                                  "titulo": "Ingeniería aeronáutica: El diseño y construcción de aviones y naves espaciales",
+                                  "categorias": ["Ingeniería", "Transporte", "Espacio"]
+                                },
+                                {
+                                  "titulo": "Arquitectura efímera: Pabellones, instalaciones y diseño temporal",
+                                  "categorias": ["Arquitectura", "Diseño", "Arte"]
+                                },
+                                {
+                                  "titulo": "Fotografía móvil: Capturando momentos con tu smartphone",
+                                  "categorias": ["Fotografía", "Tecnología", "Hogar"]
+                                },
+                                {
+                                  "titulo": "Juegos educativos para adultos: Aprender mientras te diviertes",
+                                  "categorias": ["Juegos", "Educación", "Entretenimiento"]
+                                },
+                                {
+                                  "titulo": "Misterio y enigmas históricos: Secretos que la historia no ha revelado",
+                                  "categorias": ["Misterio", "Historia"]
+                                },
+                                {
+                                  "titulo": "Fantasía urbana: Magia en las ciudades modernas",
+                                  "categorias": ["Fantasía", "Literatura"]
+                                },
+                                {
+                                  "titulo": "Ciencia ficción y robótica: El impacto de la inteligencia artificial en la sociedad",
+                                  "categorias": ["Ciencia ficción", "Tecnología", "Sociedad"]
+                                },
+                                {
+                                  "titulo": "Terror psicológico en el cine: Directores que dominan el arte del miedo",
+                                  "categorias": ["Terror", "Entretenimiento"]
+                                },
+                                {
+                                  "titulo": "Romance en la pantalla: Las mejores películas románticas de todos los tiempos",
+                                  "categorias": ["Romance", "Entretenimiento"]
+                                },
+                                {
+                                  "titulo": "Negocios y emprendimiento: Cómo convertir una idea en un éxito",
+                                  "categorias": ["Negocios", "Finanzas"]
+                                },
+                                {
+                                  "titulo": "Marketing digital y publicidad online: Estrategias para el éxito en internet",
+                                  "categorias": ["Marketing", "Publicidad", "Tecnología"]
+                                },
+                                {
+                                  "titulo": "Diseño de interiores minimalista: Menos es más en la decoración del hogar",
+                                  "categorias": ["Diseño", "Hogar"]
+                                },
+                                {
+                                  "titulo": "Medios y comunicación política: El papel de los medios en las elecciones",
+                                  "categorias": ["Medios", "Política", "Comunicación"]
+                                },
+                                {
+                                  "titulo": "Sociedad y derechos humanos: La lucha por la igualdad y la justicia global",
+                                  "categorias": ["Sociedad", "Derecho", "Política"]
+                                },
+                                {
+                                  "titulo": "Gobierno y ética pública: Transparencia y rendición de cuentas en la política",
+                                  "categorias": ["Gobierno", "Filosofía"]
+                                },
+                                {
+                                  "titulo": "Energía renovable y redes inteligentes: El futuro de la distribución de energía",
+                                  "categorias": ["Energía", "Tecnología"]
+                                },
+                                {
+                                  "titulo": "Transporte de mercancías y sostenibilidad: Logística verde y eficiencia",
+                                  "categorias": ["Transporte", "Comercio", "Medioambiente"]
+                                },
+                                {
+                                  "titulo": "Ingeniería de software y seguridad de datos: Protegiendo tu información en la nube",
+                                  "categorias": ["Ingeniería de software", "Tecnología", "Derecho"]
+                                },
+                                {
+                                  "titulo": "Biología evolutiva: La historia de la vida en la Tierra y sus transformaciones",
+                                  "categorias": ["Biología", "Historia", "Ciencia"]
+                                },
+                                {
+                                  "titulo": "Matemáticas en las finanzas: Modelos para entender los mercados",
+                                  "categorias": ["Matemáticas", "Finanzas"]
+                                },
+                                {
+                                  "titulo": "Idiomas y viajes: Sumérgete en nuevas culturas a través de su lengua",
+                                  "categorias": ["Idiomas", "Viajes", "Cultura"]
+                                },
+                                {
+                                  "titulo": "Cocina saludable para deportistas: Nutrición para el rendimiento atlético",
+                                  "categorias": ["Cocina", "Alimentación", "Deportes"]
+                                },
+                                {
+                                  "titulo": "Vehículos eléctricos de alta gama: Lujo y sostenibilidad en la carretera",
+                                  "categorias": ["Vehículos", "Tecnología", "Finanzas"]
+                                },
+                                {
+                                  "titulo": "Tecnología y robótica en la industria: La automatización de procesos",
+                                  "categorias": ["Tecnología", "Ingeniería", "Negocios"]
+                                },
+                                {
+                                  "titulo": "Salud mental infantil: Cómo apoyar a los niños en su bienestar emocional",
+                                  "categorias": ["Salud", "Psicología", "Educación"]
+                                },
+                                {
+                                  "titulo": "Finanzas personales para jóvenes: Primeros pasos para una economía sana",
+                                  "categorias": ["Finanzas", "Educación"]
+                                },
+                                {
+                                  "titulo": "Educación y el futuro del trabajo: Habilidades necesarias para la economía del conocimiento",
+                                  "categorias": ["Educación", "Negocios", "Tecnología"]
+                                }
+                              ]
+                          
+                  
+
+              
+          
+      
+  
